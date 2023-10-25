@@ -5,8 +5,11 @@ import 'package:fitness/view/main_tab/select_view.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:simple_animation_progress_bar/simple_animation_progress_bar.dart';
+import 'package:fitness/view/workout_tracker/workour_detail_view.dart';
 import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
 
+
+import '../../common_widget/what_train_row.dart';
 import '../../common/colo_extension.dart';
 import 'activity_tracker_view.dart';
 import 'finished_workout_view.dart';
@@ -25,6 +28,7 @@ class _HomeViewState extends State<HomeView> {
       "name": "Treino de Superiores",
       "image": "assets/img/Workout1.png",
       "kcal": "180",
+      "tag":'1',
       "time": "20",
       "progress": 0.3
     },
@@ -32,6 +36,7 @@ class _HomeViewState extends State<HomeView> {
       "name": "Treino de Inferiores",
       "image": "assets/img/Workout2.png",
       "kcal": "200",
+      "tag":'2',
       "time": "30",
       "progress": 0.4
     },
@@ -39,6 +44,7 @@ class _HomeViewState extends State<HomeView> {
       "name": "Abdominais e Antebraço",
       "image": "assets/img/Workout3.png",
       "kcal": "300",
+      "tag":'3',
       "time": "40",
       "progress": 0.7
     },
@@ -485,13 +491,29 @@ class _HomeViewState extends State<HomeView> {
                       var wObj = lastWorkoutArr[index] as Map? ?? {};
                       return InkWell(
                           onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) =>
-                                    const FinishedWorkoutView(),
-                              ),
-                            );
+                             switch(wObj["tag"].toString()){
+                              case '1':
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            WorkoutDetailView(dObj: wObj,)));
+                                break;
+                              case '2':
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            const ActivityTrackerView()));
+                                break;
+                              case '3':
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            const ActivityTrackerView()));
+                                break;
+                            }
                           },
                           child: WorkoutRow(wObj: wObj));
                     }),
