@@ -1,6 +1,11 @@
 // This is a generated file; do not edit or check into version control.
+<<<<<<< HEAD
+FLUTTER_ROOT=C:\Users\ianom\Documents\flutter\flutter
+FLUTTER_APPLICATION_PATH=C:\Users\Public\FitnessPlus
+=======
 FLUTTER_ROOT=C:\Users\helen\Documents\flutter\flutter
 FLUTTER_APPLICATION_PATH=C:\Users\helen\OneDrive\faculdade\FitnessPlus
+>>>>>>> 9f7eda52decbacf6286f8afd60ffe2bbe9834e66
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib\main.dart
 FLUTTER_BUILD_DIR=build
