@@ -35,14 +35,14 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                   height: media.width * 0.05,
                 ),
                 Text(
-                  "Let’s complete your profile",
+                  "Vamos comparar o seu perfil",
                   style: TextStyle(
                       color: TColor.black,
                       fontSize: 20,
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  "It will help us to know more about you!",
+                  "Isso vai nos ajudar a conhecer melhor você!",
                   style: TextStyle(color: TColor.gray, fontSize: 12),
                 ),
                 SizedBox(
@@ -75,7 +75,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                               Expanded(
                                 child: DropdownButtonHideUnderline(
                                   child: DropdownButton(
-                                    items: ["Male", "Female"]
+                                    items: ["Masculino", "Feminino"]
                                         .map((name) => DropdownMenuItem(
                                               value: name,
                                               child: Text(
@@ -89,7 +89,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                                     onChanged: (value) {},
                                     isExpanded: true,
                                     hint: Text(
-                                      "Choose Gender",
+                                      "Escolha o gênero",
                                       style: TextStyle(
                                           color: TColor.gray, fontSize: 12),
                                     ),
@@ -106,7 +106,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                       ),
                       RoundTextField(
                         controller: txtDate,
-                        hitText: "Date of Birth",
+                        hitText: "Data de Nascimento",
                         icon: "assets/img/date.png",
                       ),
                       SizedBox(
@@ -117,7 +117,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                           Expanded(
                             child: RoundTextField(
                               controller: txtDate,
-                              hitText: "Your Weight",
+                              hitText: "Seu peso",
                               icon: "assets/img/weight.png",
                             ),
                           ),
@@ -150,7 +150,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                           Expanded(
                             child: RoundTextField(
                               controller: txtDate,
-                              hitText: "Your Height",
+                              hitText: "Sua altura",
                               icon: "assets/img/hight.png",
                             ),
                           ),
@@ -179,7 +179,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                         height: media.width * 0.07,
                       ),
                       RoundButton(
-                          title: "Next >",
+                          title: "Próximo >",
                           onPressed: () {
                             Navigator.push(
                                 context,

@@ -14,7 +14,7 @@ class PhotoProgressView extends StatefulWidget {
 class _PhotoProgressViewState extends State<PhotoProgressView> {
   List photoArr = [
     {
-      "time": "2 June",
+      "time": "2 de Junho",
       "photo": [
         "assets/img/pp_1.png",
         "assets/img/pp_2.png",
@@ -23,7 +23,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
       ]
     },
     {
-      "time": "5 May",
+      "time": "5 de Maio",
       "photo": [
         "assets/img/pp_5.png",
         "assets/img/pp_6.png",

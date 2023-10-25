@@ -18,9 +18,9 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
   List goalArr = [
     {
       "image": "assets/img/goal_1.png",
-      "title": "Improve Shape",
+      "title": "Aprimorar o físico",
       "subtitle":
-          "I have a low amount of body fat\nand need / want to build more\nmuscle"
+          "Eu tenho uma baixa quantidade de gordura corporal\ne preciso / quero desenvolver \nmúsculo"
     },
     {
       "image": "assets/img/goal_2.png",
