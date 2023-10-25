@@ -390,14 +390,14 @@ class _HomeViewState extends State<HomeView> {
                                 ),
                                 const Spacer(),
                                 Container(
-                                  alignment: Alignment.centerRight,
+                                  alignment: Alignment.center,
                                   padding: const EdgeInsets.symmetric(
                                       vertical: 0, horizontal: 30),
                                   child: SizedBox(
                                     width: media.width * 0.2,
                                     height: media.width * 0.2,
                                     child: Stack(
-                                      alignment: Alignment.centerLeft,
+                                      alignment: Alignment.center,
                                       children: [
                                         Container(
                                           width: media.width * 0.15,

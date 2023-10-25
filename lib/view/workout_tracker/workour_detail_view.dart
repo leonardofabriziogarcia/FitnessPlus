@@ -19,18 +19,18 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
   List latestArr = [
     {
       "image": "assets/img/Workout1.png",
-      "title": "Fullbody Workout",
-      "time": "Today, 03:00pm"
+      "title": "Treino de superiores  ",
+      "time": "Hoje, 15:00"
     },
     {
       "image": "assets/img/Workout2.png",
-      "title": "Upperbody Workout",
-      "time": "June 05, 02:00pm"
+      "title": "Treino de inferiores",
+      "time": "Nov 11, 16:00"
     },
   ];
 
   List youArr = [
-    {"image": "assets/img/barbell.png", "title": "Barbell"},
+    {"image": "assets/img/barbell.png", "title": "Halter"},
     {"image": "assets/img/skipping_rope.png", "title": "Skipping Rope"},
     {"image": "assets/img/bottle.png", "title": "Bottle 1 Liters"},
   ];
@@ -148,7 +148,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
               flexibleSpace: Align(
                 alignment: Alignment.center,
                 child: Image.asset(
-                  "assets/img/detail_top.png",
+                  "assets/img/what_4.png",
                   width: media.width * 0.75,
                   height: media.width * 0.8,
                   fit: BoxFit.contain,
@@ -198,7 +198,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                                       fontWeight: FontWeight.w700),
                                 ),
                                 Text(
-                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()} | 320 Calories Burn",
+                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()} | Queima de 330 calorias",
                                   style: TextStyle(
                                       color: TColor.gray, fontSize: 12),
                                 ),
@@ -219,22 +219,22 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                       SizedBox(
                         height: media.width * 0.05,
                       ),
-                      IconTitleNextRow(
-                          icon: "assets/img/time.png",
-                          title: "Schedule Workout",
-                          time: "5/27, 09:00 AM",
-                          color: TColor.primaryColor2.withOpacity(0.3),
-                          onPressed: () {
+                      // IconTitleNextRow(
+                      //     icon: "assets/img/time.png",
+                      //     title: "Schedule Workout",
+                      //     time: "5/27, 09:00 AM",
+                      //     color: TColor.primaryColor2.withOpacity(0.3),
+                      //     onPressed: () {
 
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => const WorkoutScheduleView() )  );
-                          }),
+                      //         Navigator.push(context, MaterialPageRoute(builder: (context) => const WorkoutScheduleView() )  );
+                      //     }),
                       SizedBox(
                         height: media.width * 0.02,
                       ),
                       IconTitleNextRow(
                           icon: "assets/img/difficulity.png",
-                          title: "Difficulity",
-                          time: "Beginner",
+                          title: "Dificuldade",
+                          time: "Intermediária",
                           color: TColor.secondaryColor2.withOpacity(0.3),
                           onPressed: () {}),
                       SizedBox(
@@ -244,7 +244,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "You'll Need",
+                            "O que você vai precisar",
                             style: TextStyle(
                                 color: TColor.black,
                                 fontSize: 16,
@@ -253,7 +253,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                           TextButton(
                             onPressed: () {},
                             child: Text(
-                              "${youArr.length} Items",
+                              "${youArr.length} itens",
                               style:
                                   TextStyle(color: TColor.gray, fontSize: 12),
                             ),

@@ -54,7 +54,7 @@ class WhatTrainRow extends StatelessWidget {
                       width: 100,
                       height: 30,
                       child: RoundButton(
-                          title: "View More",
+                          title: "Veja mais",
                           fontSize: 10,
                           type: RoundButtonType.textGradient,
                           elevation:0.05,
