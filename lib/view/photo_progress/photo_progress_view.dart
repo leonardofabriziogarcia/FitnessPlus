@@ -44,7 +44,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
         leadingWidth: 0,
         leading: const SizedBox(),
         title: Text(
-          "Progress Photo",
+          "Foto de Progresso",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),
@@ -109,14 +109,14 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 const Text(
-                                  "Reminder!",
+                                  "Lembrete!",
                                   style: TextStyle(
                                       color: Colors.red,
                                       fontSize: 12,
                                       fontWeight: FontWeight.w500),
                                 ),
                                 Text(
-                                  "Next Photos Fall On July 08",
+                                  "Próxima foto dia 08 de Julho",
                                   style: TextStyle(
                                       color: TColor.black,
                                       fontSize: 14,
@@ -161,7 +161,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
                                 height: 15,
                               ),
                               Text(
-                                "Track Your Progress Each\nMonth With Photo",
+                                "Acompanhe seu progresso cada \nmês com as fotos",
                                 style: TextStyle(
                                   color: TColor.black,
                                   fontSize: 12,
@@ -172,7 +172,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
                                 width: 110,
                                 height: 35,
                                 child: RoundButton(
-                                    title: "Learn More",
+                                    title: "Saiba Mais",
                                     fontSize: 12,
                                     onPressed: () {}),
                               )
@@ -200,7 +200,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Compare my Photo",
+                        "Compare minha foto",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 14,
@@ -210,7 +210,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
                         width: 100,
                         height: 25,
                         child: RoundButton(
-                          title: "Compare",
+                          title: "Comparar",
                           type: RoundButtonType.bgGradient,
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
@@ -235,7 +235,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Gallery",
+                        "Galeria",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 16,
@@ -244,7 +244,7 @@ class _PhotoProgressViewState extends State<PhotoProgressView> {
                       TextButton(
                           onPressed: () {},
                           child: Text(
-                            "See more",
+                            "Veja mais",
                             style: TextStyle(color: TColor.gray, fontSize: 12),
                           ))
                     ],
