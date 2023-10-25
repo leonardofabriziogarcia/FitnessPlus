@@ -17,7 +17,11 @@ public final class GeneratedPluginRegistrant {
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     try {
       flutterEngine.getPlugins().add(new com.example.simple_aniatiom_progress_bar.simple_animation_progress_bar.SimpleAnimationProgressBarPlugin());
+<<<<<<< HEAD
     } catch(Exception e) {
+=======
+    } catch (Exception e) {
+>>>>>>> 5c44424f3db5ef049ab3b19c83271d2c10af7f39
       Log.e(TAG, "Error registering plugin simple_animation_progress_bar, com.example.simple_aniatiom_progress_bar.simple_animation_progress_bar.SimpleAnimationProgressBarPlugin", e);
     }
   }

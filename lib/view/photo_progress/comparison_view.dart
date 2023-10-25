@@ -41,7 +41,7 @@ class _ComparisonViewState extends State<ComparisonView> {
           ),
         ),
         title: Text(
-          "Comparison",
+          "Comparação",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),
@@ -82,13 +82,13 @@ class _ComparisonViewState extends State<ComparisonView> {
             ),
             IconTitleNextRow(
                 icon: "assets/img/date.png",
-                title: "Select Month 2",
-                time: "select Month",
+                title: "Selecionar mês 2",
+                time: "Selecionar mês",
                 onPressed: () {},
                 color: TColor.lightGray),
             const Spacer(),
             RoundButton(
-                title: "Compare",
+                title: "Comparar",
                 onPressed: () {
                   Navigator.push(
                     context,
