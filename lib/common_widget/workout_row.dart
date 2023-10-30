@@ -41,7 +41,7 @@ class WorkoutRow extends StatelessWidget {
                 ),
 
                 Text(
-                  "${ wObj["kcal"].toString() } Queima de calorias | ${wObj["time"].toString()}minutos",
+                  "${ wObj["kcal"].toString() } Queima de calorias | ${wObj["time"].toString()} minutos",
                   style: TextStyle(
                       color: TColor.gray,
                       fontSize: 10,),

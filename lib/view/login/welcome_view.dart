@@ -38,21 +38,21 @@ SizedBox(
                 height: media.width * 0.1,
               ),
               Text(
-                "Welcome, Stefani",
+                "Bem vindo, Pedro",
                 style: TextStyle(
                     color: TColor.black,
                     fontSize: 20,
                     fontWeight: FontWeight.w700),
               ),
               Text(
-                "You are all set now, let’s reach your\ngoals together with us",
+                "Tudo certo agora, vamos alcançar nossos\nobjetivos juntos conosco",
                 textAlign: TextAlign.center,
                 style: TextStyle(color: TColor.gray, fontSize: 12),
               ),
              const Spacer(),
 
                RoundButton(
-                  title: "Go To Home",
+                  title: "Vamos começar!",
                   onPressed: () {
                     Navigator.push(
                         context,

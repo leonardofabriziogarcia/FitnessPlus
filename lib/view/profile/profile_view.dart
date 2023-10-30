@@ -5,6 +5,7 @@ import '../../common_widget/round_button.dart';
 import '../../common_widget/setting_row.dart';
 import '../../common_widget/title_subtitle_cell.dart';
 import '../../view/login/complete_profile_view.dart';
+import '../../view/login/signup_view.dart';
 import 'package:animated_toggle_switch/animated_toggle_switch.dart';
 
 class ProfileView extends StatefulWidget {
@@ -114,7 +115,7 @@ class _ProfileViewState extends State<ProfileView> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const CompleteProfileView(),
+                            builder: (context) => const SignUpView(),
                           ),
                         );
                       },

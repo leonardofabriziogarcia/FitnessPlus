@@ -1,5 +1,6 @@
 import 'package:fitness/common/colo_extension.dart';
 import 'package:fitness/view/workout_tracker/workour_detail_view.dart';
+import 'package:fitness/view/workout_tracker/treino_inferiores.dart';
 import 'package:fitness/view/home/activity_tracker_view.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class WorkoutTrackerView extends StatefulWidget {
 class _WorkoutTrackerViewState extends State<WorkoutTrackerView> {
   List latestArr = [
     {
-      "image": "assets/img/what_4.png",
+      "image": "assets/img/what_5.png",
       "title": "Treino de superiores",
       "time": "Hoje, 15:00"
     },
@@ -31,7 +32,7 @@ class _WorkoutTrackerViewState extends State<WorkoutTrackerView> {
 
   List whatArr = [
     {
-      "image": "assets/img/what_4.png",
+      "image": "assets/img/what_5.png",
       "title": "Treinos de superiores",
       "exercises": "11 exercícios",
       "tag": "1",
@@ -215,14 +216,14 @@ class _WorkoutTrackerViewState extends State<WorkoutTrackerView> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            WorkoutDetailView(dObj: wObj,)));
+                                          WorkoutDetailView(dObj: wObj,)));
                                 break;
                               case '2':
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            const ActivityTrackerView()));
+                                          TreinoInferiores(dObj: wObj,)));
                                 break;
                               case '3':
                                 Navigator.push(

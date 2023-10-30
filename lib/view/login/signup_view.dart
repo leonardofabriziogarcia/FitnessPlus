@@ -27,11 +27,11 @@ class _SignUpViewState extends State<SignUpView> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text(
-                  "Hey there,",
+                  "Olá, bem vindo",
                   style: TextStyle(color: TColor.gray, fontSize: 16),
                 ),
                 Text(
-                  "Create an Account",
+                  "Criar uma conta",
                   style: TextStyle(
                       color: TColor.black,
                       fontSize: 20,
@@ -71,14 +71,7 @@ class _SignUpViewState extends State<SignUpView> {
                       child: Container(
                           alignment: Alignment.center,
                           width: 20,
-                          height: 20,
-                          child: Image.asset(
-                            "assets/img/show_password.png",
-                            width: 20,
-                            height: 20,
-                            fit: BoxFit.contain,
-                            color: TColor.gray,
-                          ))),
+                          height: 20)),
                 ),
                 Row(
                   // crossAxisAlignment: CrossAxisAlignment.,
@@ -118,81 +111,6 @@ class _SignUpViewState extends State<SignUpView> {
                               builder: (context) =>
                                   const CompleteProfileView()));
                     }),
-                SizedBox(
-                  height: media.width * 0.04,
-                ),
-                Row(
-                  // crossAxisAlignment: CrossAxisAlignment.,
-                  children: [
-                    Expanded(
-                        child: Container(
-                      height: 1,
-                      color: TColor.gray.withOpacity(0.5),
-                    )),
-                    Text(
-                      "  Or  ",
-                      style: TextStyle(color: TColor.black, fontSize: 12),
-                    ),
-                    Expanded(
-                        child: Container(
-                      height: 1,
-                      color: TColor.gray.withOpacity(0.5),
-                    )),
-                  ],
-                ),
-                SizedBox(
-                  height: media.width * 0.04,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    GestureDetector(
-                      onTap: () {},
-                      child: Container(
-                        width: 50,
-                        height: 50,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: TColor.white,
-                          border: Border.all(
-                            width: 1,
-                            color: TColor.gray.withOpacity(0.4),
-                          ),
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Image.asset(
-                          "assets/img/google.png",
-                          width: 20,
-                          height: 20,
-                        ),
-                      ),
-                    ),
-                    SizedBox(
-                      width: media.width * 0.04,
-                    ),
-                    GestureDetector(
-                      onTap: () {},
-                      child: Container(
-                        width: 50,
-                        height: 50,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: TColor.white,
-                          border: Border.all(
-                            width: 1,
-                            color: TColor.gray.withOpacity(0.4),
-                          ),
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Image.asset(
-                          "assets/img/facebook.png",
-                          width: 20,
-                          height: 20,
-                        ),
-                      ),
-                    )
-                  ],
-                ),
                 SizedBox(
                   height: media.width * 0.04,
                 ),

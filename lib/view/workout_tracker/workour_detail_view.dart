@@ -31,54 +31,116 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
 
   List youArr = [
     {"image": "assets/img/barbell.png", "title": "Halter"},
-    {"image": "assets/img/skipping_rope.png", "title": "Skipping Rope"},
-    {"image": "assets/img/bottle.png", "title": "Bottle 1 Liters"},
+    {"image": "assets/img/treadmill.png", "title": "Esteira"},
+    {"image": "assets/img/bottle.png", "title": "Garrafa de água 1L"},
   ];
 
-  List exercisesArr = [
+  List exercisessupArr = [
     {
-      "name": "Set 1",
+      "name": "Set 1 (Peito/Tríceps)",
       "set": [
-        {"image": "assets/img/img_1.png", "title": "Warm Up", "value": "05:00"},
+        {"image": "assets/img/img_1.png", "title": "Aquecimento", "value": "03:00"},
         {
           "image": "assets/img/img_2.png",
-          "title": "Jumping Jack",
-          "value": "12x"
+          "title": "Supino reto com halter",
+          "value": "4 séries de 12x"
         },
-        {"image": "assets/img/img_1.png", "title": "Skipping", "value": "15x"},
-        {"image": "assets/img/img_2.png", "title": "Squats", "value": "20x"},
+        {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+        {"image": "assets/img/img_1.png", "title": "Crucifixo na polia", "value": "4 séries de 12x"},
+        {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+        {"image": "assets/img/img_2.png", "title": "Supino inclinado com halter", "value": " 4 séries de 12x"},
+        {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+
         {
           "image": "assets/img/img_1.png",
-          "title": "Arm Raises",
-          "value": "00:53"
+          "title": "Tríceps francês na polia",
+          "value": "4 séries de 12x"
         },
         {
           "image": "assets/img/img_2.png",
-          "title": "Rest and Drink",
+          "title": "Descanso",
           "value": "02:00"
+        },
+        {
+          "image": "assets/img/img_1.png",
+          "title": "Tríceps testa",
+          "value": "4 séries de 12x"
+        },
+        {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+        {
+          "image": "assets/img/img_1.png",
+          "title": "Tríceps coice",
+          "value": "4 séries de 12x"
         },
       ],
     },
     {
-      "name": "Set 2",
+      "name": "Set 2 (Costas/Bíceps)",
       "set": [
-        {"image": "assets/img/img_1.png", "title": "Warm Up", "value": "05:00"},
+        {"image": "assets/img/img_1.png", "title": "Aquecimento", "value": "03:00"},
         {
           "image": "assets/img/img_2.png",
-          "title": "Jumping Jack",
-          "value": "12x"
+          "title": "Remada curvada com barra",
+          "value": "4 séries de 12x"
         },
-        {"image": "assets/img/img_1.png", "title": "Skipping", "value": "15x"},
-        {"image": "assets/img/img_2.png", "title": "Squats", "value": "20x"},
+        {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+        {"image": "assets/img/img_1.png", "title": "Remada serrote", "value": "4 séries de 12x"},
+         {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+        {"image": "assets/img/img_2.png", "title": "Remada no banco inclinado com halter", "value": "4 séries de 12x"},
+        {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+
         {
           "image": "assets/img/img_1.png",
-          "title": "Arm Raises",
-          "value": "00:53"
+          "title": "Rosca concentrada com halter",
+          "value": "4 séries de 12x"
         },
         {
           "image": "assets/img/img_2.png",
-          "title": "Rest and Drink",
+          "title": "Descanso",
           "value": "02:00"
+        },
+        {
+          "image": "assets/img/img_1.png",
+          "title": "Rosca direta",
+          "value": "4 séries de 12x"
+        },
+        {
+          "image": "assets/img/img_2.png",
+          "title": "Descanso",
+          "value": "02:00"
+        },
+        {
+          "image": "assets/img/img_1.png",
+          "title": "Rosca martelo",
+          "value": "4 séries de 12x"
         },
       ],
     }
@@ -117,26 +179,6 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                   ),
                 ),
               ),
-              actions: [
-                InkWell(
-                  onTap: () {},
-                  child: Container(
-                    margin: const EdgeInsets.all(8),
-                    height: 40,
-                    width: 40,
-                    alignment: Alignment.center,
-                    decoration: BoxDecoration(
-                        color: TColor.lightGray,
-                        borderRadius: BorderRadius.circular(10)),
-                    child: Image.asset(
-                      "assets/img/more_btn.png",
-                      width: 15,
-                      height: 15,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                )
-              ],
             ),
             SliverAppBar(
               backgroundColor: Colors.transparent,
@@ -144,13 +186,13 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
               elevation: 0,
               leadingWidth: 0,
               leading: Container(),
-              expandedHeight: media.width * 0.5,
+              expandedHeight: media.width * 0.7,
               flexibleSpace: Align(
                 alignment: Alignment.center,
                 child: Image.asset(
-                  "assets/img/what_4.png",
-                  width: media.width * 0.75,
-                  height: media.width * 0.8,
+                  "assets/img/what_5.png",
+                  width: media.width * 0.9,
+                  height: media.width * 0.9,
                   fit: BoxFit.contain,
                 ),
               ),
@@ -310,7 +352,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "Exercises",
+                            "Exercícios",
                             style: TextStyle(
                                 color: TColor.black,
                                 fontSize: 16,
@@ -319,7 +361,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                           TextButton(
                             onPressed: () {},
                             child: Text(
-                              "${youArr.length} Sets",
+                              "${exercisessupArr.length} Sets",
                               style:
                                   TextStyle(color: TColor.gray, fontSize: 12),
                             ),
@@ -330,9 +372,9 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                           padding: EdgeInsets.zero,
                           physics: const NeverScrollableScrollPhysics(),
                           shrinkWrap: true,
-                          itemCount: exercisesArr.length,
+                          itemCount: exercisessupArr.length,
                           itemBuilder: (context, index) {
-                            var sObj = exercisesArr[index] as Map? ?? {};
+                            var sObj = exercisessupArr[index] as Map? ?? {};
                             return ExercisesSetSection(
                               sObj: sObj,
                               onPressed: (obj) {
@@ -353,15 +395,6 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                     ],
                   ),
                 ),
-                SafeArea(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      RoundButton(title: "Start Workout", onPressed: () {})
-                    ],
-                  ),
-                )
               ],
             ),
           ),

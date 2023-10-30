@@ -2,17 +2,15 @@ import 'package:dotted_dashed_line/dotted_dashed_line.dart';
 import 'package:fitness/common_widget/round_button.dart';
 import 'package:fitness/common_widget/workout_row.dart';
 import 'package:fitness/view/main_tab/select_view.dart';
-import 'package:fl_chart/fl_chart.dart';
+import 'package:fitness/view/workout_tracker/workout_tracker_view.dart';
 import 'package:flutter/material.dart';
+import 'package:fitness/view/workout_tracker/treino_inferiores.dart';
 import 'package:simple_animation_progress_bar/simple_animation_progress_bar.dart';
 import 'package:fitness/view/workout_tracker/workour_detail_view.dart';
-import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
-
 
 import '../../common_widget/what_train_row.dart';
 import '../../common/colo_extension.dart';
 import 'activity_tracker_view.dart';
-import 'finished_workout_view.dart';
 import 'notification_view.dart';
 
 class HomeView extends StatefulWidget {
@@ -27,17 +25,17 @@ class _HomeViewState extends State<HomeView> {
     {
       "name": "Treino de Superiores",
       "image": "assets/img/Workout1.png",
-      "kcal": "180",
+      "kcal": "500",
       "tag":'1',
-      "time": "20",
+      "time": "90",
       "progress": 0.3
     },
     {
       "name": "Treino de Inferiores",
       "image": "assets/img/Workout2.png",
-      "kcal": "200",
+      "kcal": "800",
       "tag":'2',
-      "time": "30",
+      "time": "120",
       "progress": 0.4
     },
     {
@@ -45,10 +43,35 @@ class _HomeViewState extends State<HomeView> {
       "image": "assets/img/Workout3.png",
       "kcal": "300",
       "tag":'3',
-      "time": "40",
+      "time": "60",
       "progress": 0.7
     },
   ];
+
+  List whatArr = [
+    {
+      "image": "assets/img/what_4-removebg-preview.png",
+      "title": "Treinos de superiores",
+      "exercises": "11 exercícios",
+      "tag": "1",
+      "time": "90 minutos"
+    },
+    {
+      "image": "assets/img/what_2.png",
+      "title": "Treino de inferiores",
+      "exercises": "12 exercícios",
+      "tag": "2",
+      "time": "120 minutos"
+    },
+    {
+      "image": "assets/img/what_3.png",
+      "title": "Treino de abdominal e antebraço",
+      "exercises": "10 exercícios",
+      "tag": "3",
+      "time": "60 minutos"
+    }
+  ];
+
   List<int> showingTooltipOnSpots = [21];
 
   List waterArr = [
@@ -468,7 +491,7 @@ class _HomeViewState extends State<HomeView> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const SelectView(),
+                            builder: (context) => const WorkoutTrackerView(),
                           ),
                         );
                       },
@@ -489,6 +512,8 @@ class _HomeViewState extends State<HomeView> {
                     itemCount: lastWorkoutArr.length,
                     itemBuilder: (context, index) {
                       var wObj = lastWorkoutArr[index] as Map? ?? {};
+                      var aObj = whatArr[index] as Map? ?? {};
+
                       return InkWell(
                           onTap: () {
                              switch(wObj["tag"].toString()){
@@ -497,14 +522,14 @@ class _HomeViewState extends State<HomeView> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            WorkoutDetailView(dObj: wObj,)));
+                                            WorkoutDetailView(dObj: aObj,)));
                                 break;
                               case '2':
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            const ActivityTrackerView()));
+                                          TreinoInferiores(dObj: aObj,)));
                                 break;
                               case '3':
                                 Navigator.push(

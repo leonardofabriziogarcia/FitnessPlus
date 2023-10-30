@@ -68,30 +68,10 @@ class _MealPlannerViewState extends State<MealPlannerView> {
           ),
         ),
         title: Text(
-          "Meal Planner",
+          "Rotina de alimentação",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),
-        actions: [
-          InkWell(
-            onTap: () {},
-            child: Container(
-              margin: const EdgeInsets.all(8),
-              height: 40,
-              width: 40,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                  color: TColor.lightGray,
-                  borderRadius: BorderRadius.circular(10)),
-              child: Image.asset(
-                "assets/img/more_btn.png",
-                width: 15,
-                height: 15,
-                fit: BoxFit.contain,
-              ),
-            ),
-          )
-        ],
       ),
       backgroundColor: TColor.white,
       body: SingleChildScrollView(
@@ -103,164 +83,6 @@ class _MealPlannerViewState extends State<MealPlannerView> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Meal Nutritions",
-                        style: TextStyle(
-                            color: TColor.black,
-                            fontSize: 16,
-                            fontWeight: FontWeight.w700),
-                      ),
-                      Container(
-                          height: 30,
-                          padding: const EdgeInsets.symmetric(horizontal: 8),
-                          decoration: BoxDecoration(
-                            gradient: LinearGradient(colors: TColor.primaryG),
-                            borderRadius: BorderRadius.circular(15),
-                          ),
-                          child: DropdownButtonHideUnderline(
-                            child: DropdownButton(
-                              items: ["Weekly", "Monthly"]
-                                  .map((name) => DropdownMenuItem(
-                                        value: name,
-                                        child: Text(
-                                          name,
-                                          style: TextStyle(
-                                              color: TColor.gray, fontSize: 14),
-                                        ),
-                                      ))
-                                  .toList(),
-                              onChanged: (value) {},
-                              icon:
-                                  Icon(Icons.expand_more, color: TColor.white),
-                              hint: Text(
-                                "Weekly",
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    color: TColor.white, fontSize: 12),
-                              ),
-                            ),
-                          )),
-                    ],
-                  ),
-                  SizedBox(
-                    height: media.width * 0.05,
-                  ),
-                  Container(
-                      padding: const EdgeInsets.only(left: 15),
-                      height: media.width * 0.5,
-                      width: double.maxFinite,
-                      child: LineChart(
-                        LineChartData(
-                          // showingTooltipIndicators:
-                          //     showingTooltipOnSpots.map((index) {
-                          //   return ShowingTooltipIndicators([
-                          //     LineBarSpot(
-                          //       tooltipsOnBar,
-                          //       lineBarsData.indexOf(tooltipsOnBar),
-                          //       tooltipsOnBar.spots[index],
-                          //     ),
-                          //   ]);
-                          // }).toList(),
-                          lineTouchData: LineTouchData(
-                            enabled: true,
-                            handleBuiltInTouches: false,
-                            touchCallback: (FlTouchEvent event,
-                                LineTouchResponse? response) {
-                              // if (response == null || response.lineBarSpots == null) {
-                              //   return;
-                              // }
-                              // if (event is FlTapUpEvent) {
-                              //   final spotIndex =
-                              //       response.lineBarSpots!.first.spotIndex;
-                              //   showingTooltipOnSpots.clear();
-                              //   setState(() {
-                              //     showingTooltipOnSpots.add(spotIndex);
-                              //   });
-                              // }
-                            },
-                            mouseCursorResolver: (FlTouchEvent event,
-                                LineTouchResponse? response) {
-                              if (response == null ||
-                                  response.lineBarSpots == null) {
-                                return SystemMouseCursors.basic;
-                              }
-                              return SystemMouseCursors.click;
-                            },
-                            getTouchedSpotIndicator: (LineChartBarData barData,
-                                List<int> spotIndexes) {
-                              return spotIndexes.map((index) {
-                                return TouchedSpotIndicatorData(
-                                  FlLine(
-                                    color: Colors.transparent,
-                                  ),
-                                  FlDotData(
-                                    show: true,
-                                    getDotPainter:
-                                        (spot, percent, barData, index) =>
-                                            FlDotCirclePainter(
-                                      radius: 3,
-                                      color: Colors.white,
-                                      strokeWidth: 3,
-                                      strokeColor: TColor.secondaryColor1,
-                                    ),
-                                  ),
-                                );
-                              }).toList();
-                            },
-                            touchTooltipData: LineTouchTooltipData(
-                              tooltipBgColor: TColor.secondaryColor1,
-                              tooltipRoundedRadius: 20,
-                              getTooltipItems:
-                                  (List<LineBarSpot> lineBarsSpot) {
-                                return lineBarsSpot.map((lineBarSpot) {
-                                  return LineTooltipItem(
-                                    "${lineBarSpot.x.toInt()} mins ago",
-                                    const TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  );
-                                }).toList();
-                              },
-                            ),
-                          ),
-                          lineBarsData: lineBarsData1,
-                          minY: -0.5,
-                          maxY: 110,
-                          titlesData: FlTitlesData(
-                              show: true,
-                              leftTitles: AxisTitles(),
-                              topTitles: AxisTitles(),
-                              bottomTitles: AxisTitles(
-                                sideTitles: bottomTitles,
-                              ),
-                              rightTitles: AxisTitles(
-                                sideTitles: rightTitles,
-                              )),
-                          gridData: FlGridData(
-                            show: true,
-                            drawHorizontalLine: true,
-                            horizontalInterval: 25,
-                            drawVerticalLine: false,
-                            getDrawingHorizontalLine: (value) {
-                              return FlLine(
-                                color: TColor.gray.withOpacity(0.15),
-                                strokeWidth: 2,
-                              );
-                            },
-                          ),
-                          borderData: FlBorderData(
-                            show: true,
-                            border: Border.all(
-                              color: Colors.transparent,
-                            ),
-                          ),
-                        ),
-                      )),
                   SizedBox(
                     height: media.width * 0.05,
                   ),
@@ -275,7 +97,7 @@ class _MealPlannerViewState extends State<MealPlannerView> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Daily Meal Schedule",
+                          "Rotina diária de alimentação",
                           style: TextStyle(
                               color: TColor.black,
                               fontSize: 14,
@@ -285,7 +107,7 @@ class _MealPlannerViewState extends State<MealPlannerView> {
                           width: 70,
                           height: 25,
                           child: RoundButton(
-                            title: "Check",
+                            title: "Veja mais",
                             type: RoundButtonType.bgGradient,
                             fontSize: 12,
                             fontWeight: FontWeight.w400,

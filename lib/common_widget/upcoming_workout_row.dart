@@ -11,7 +11,7 @@ class UpcomingWorkoutRow extends StatefulWidget {
 }
 
 class _UpcomingWorkoutRowState extends State<UpcomingWorkoutRow> {
-  bool positive = false;
+  bool positive = true;
 
 
 

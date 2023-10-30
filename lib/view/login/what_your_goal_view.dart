@@ -20,19 +20,19 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
       "image": "assets/img/goal_1.png",
       "title": "Aprimorar o físico",
       "subtitle":
-          "Eu tenho uma baixa quantidade de gordura corporal\ne preciso / quero desenvolver \nmúsculo"
+          "Já possuo um físico com uma certa \nquantidade de músculo,porém, \nquero desenvolver ainda mais meu corpo"
     },
     {
       "image": "assets/img/goal_2.png",
-      "title": "Lean & Tone",
+      "title": "Seco e magro",
       "subtitle":
-          "I’m “skinny fat”. look thin but have\nno shape. I want to add learn\nmuscle in the right way"
+          "Eu sou um magro gordinho. Pareço ser seco porém\nnão tenho nenhum músculo. Quero crescer \na minha massa muscular da maneira correta"
     },
     {
       "image": "assets/img/goal_3.png",
-      "title": "Lose a Fat",
+      "title": "Perder Gordura",
       "subtitle":
-          "I have over 20 lbs to lose. I want to\ndrop all this fat and gain muscle\nmass"
+          "Tenho cerca de 100kg. \nQuero perder essa gordura e entrar em forma"
     },
   ];
 
@@ -89,7 +89,7 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
                               gObj["subtitle"].toString(),
                               textAlign: TextAlign.center,
                               style:
-                                  TextStyle(color: TColor.white, fontSize: 12),
+                                  TextStyle(color: TColor.white, fontSize: 9),
                             ),
                           ],
                         ),
@@ -116,14 +116,14 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
                   height: media.width * 0.05,
                 ),
                 Text(
-                  "What is your goal ?",
+                  "Qual o seu objetivo aqui?",
                   style: TextStyle(
                       color: TColor.black,
                       fontSize: 20,
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  "It will help us to choose a best\nprogram for you",
+                  "Aqui temos 3 opções, veja a que se encaixa melhor no seu caso",
                   textAlign: TextAlign.center,
                   style: TextStyle(color: TColor.gray, fontSize: 12),
                 ),
@@ -132,13 +132,16 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
                   height: media.width * 0.05,
                 ),
                 RoundButton(
-                    title: "Confirm",
+                    title: "Confirmar",
                     onPressed: () {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) => const WelcomeView()));
                     }),
+                SizedBox(
+                  height: media.width * 0.05,
+                ),    
               ],
             ),
           )
