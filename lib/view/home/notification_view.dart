@@ -12,12 +12,12 @@ class NotificationView extends StatefulWidget {
 
 class _NotificationViewState extends State<NotificationView> {
   List notificationArr = [
-    {"image": "assets/img/Workout1.png", "title": "Hey, it’s time for lunch", "time": "About 1 minutes ago"},
-    {"image": "assets/img/Workout2.png", "title": "Don’t miss your lowerbody workout", "time": "About 3 hours ago"},
-    {"image": "assets/img/Workout3.png", "title": "Hey, let’s add some meals for your b", "time": "About 3 hours ago"},
-    {"image": "assets/img/Workout1.png", "title": "Congratulations, You have finished A..", "time": "29 May"},
-    {"image": "assets/img/Workout2.png", "title": "Hey, it’s time for lunch", "time": "8 April"},
-    {"image": "assets/img/Workout3.png", "title": "Ups, You have missed your Lowerbo...", "time": "8 April"},
+    {"image": "assets/img/Workout1.png", "title": "Olá, é hora do almoço", "tempo": "1 minuto atrás"},
+    {"image": "assets/img/Workout2.png", "title": "Não perca seu treino de inferiores", "tempo": "3 horas atrás"},
+    {"image": "assets/img/Workout3.png", "title": "Olá, vamos adicionar algumas refeições na sua rotina", "tempo": "3 horas atrás"},
+    {"image": "assets/img/Workout1.png", "title": "Parabéns, você terminou A..", "data": "29 de maio"},
+    {"image": "assets/img/Workout2.png", "title": "Olá, é hora do almoço", "data": "8 de abril"},
+    {"image": "assets/img/Workout3.png", "title": "Ops, você perdeu seu treino", "data": "8 de abril"},
   ];
 
   @override

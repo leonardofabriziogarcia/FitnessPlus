@@ -48,7 +48,7 @@ class _SleepAddAlarmViewState extends State<SleepAddAlarmView> {
           ),
         ),
         title: Text(
-          "Add Alarm",
+          "Adicionar alarme",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),

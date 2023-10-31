@@ -73,8 +73,8 @@ class _ComparisonViewState extends State<ComparisonView> {
           children: [
             IconTitleNextRow(
                 icon: "assets/img/date.png",
-                title: "Select Month 1",
-                time: "May",
+                title: "Selecionar mês 1",
+                time: "Maio",
                 onPressed: () {},
                 color: TColor.lightGray),
             const SizedBox(

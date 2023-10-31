@@ -20,22 +20,22 @@ class _ResultViewState extends State<ResultView> {
 
   List imaArr = [
     {
-      "title": "Front Facing",
+      "title": "Foto de frente",
       "month_1_image": "assets/img/pp_1.png",
       "month_2_image": "assets/img/pp_2.png",
     },
     {
-      "title": "Back Facing",
+      "title": "Foto de costas",
       "month_1_image": "assets/img/pp_3.png",
       "month_2_image": "assets/img/pp_4.png",
     },
     {
-      "title": "Left Facing",
+      "title": "Foto do lado esquerdo",
       "month_1_image": "assets/img/pp_5.png",
       "month_2_image": "assets/img/pp_6.png",
     },
     {
-      "title": "Right Facing",
+      "title": "Foto do ladodireito",
       "month_1_image": "assets/img/pp_7.png",
       "month_2_image": "assets/img/pp_8.png",
     },
