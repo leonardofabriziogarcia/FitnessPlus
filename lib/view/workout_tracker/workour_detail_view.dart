@@ -41,50 +41,50 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
       "set": [
         {"image": "assets/img/img_1.png", "title": "Aquecimento", "value": "03:00"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/supinoreto.jpg",
           "title": "Supino reto com halter",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
-        {"image": "assets/img/img_1.png", "title": "Crucifixo na polia", "value": "4 séries de 12x"},
+        {"image": "assets/img/crucifixo_polia.jpg", "title": "Crucifixo na polia", "value": "4 séries de 12x"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
-        {"image": "assets/img/img_2.png", "title": "Supino inclinado com halter", "value": " 4 séries de 12x"},
+        {"image": "assets/img/supino_inclinado.jpeg", "title": "Supino inclinado com halter", "value": " 4 séries de 12x"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
 
         {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/triceps_frances.jpg",
           "title": "Tríceps francês na polia",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
         {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/triceps_testa.jpg",
           "title": "Tríceps testa",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
         {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/triceps_coice.jpg",
           "title": "Tríceps coice",
           "value": "4 séries de 12x"
         },
@@ -95,50 +95,50 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
       "set": [
         {"image": "assets/img/img_1.png", "title": "Aquecimento", "value": "03:00"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/remada_curvada.jpg",
           "title": "Remada curvada com barra",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
-        {"image": "assets/img/img_1.png", "title": "Remada serrote", "value": "4 séries de 12x"},
+        {"image": "assets/img/remada_serrote.jpg", "title": "Remada serrote", "value": "4 séries de 12x"},
          {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
-        {"image": "assets/img/img_2.png", "title": "Remada no banco inclinado com halter", "value": "4 séries de 12x"},
+        {"image": "assets/img/remada_banco.jpg", "title": "Remada no banco inclinado com halter", "value": "4 séries de 12x"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
 
         {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/rosca_concentrada.jpg",
           "title": "Rosca concentrada com halter",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
         {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/rosca_direta.jpg",
           "title": "Rosca direta",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
         {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/rosca_martelo.jpg",
           "title": "Rosca martelo",
           "value": "4 séries de 12x"
         },

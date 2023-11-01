@@ -52,7 +52,7 @@ class _LoginViewState extends State<LoginView> {
                   height: media.width * 0.04,
                 ),
                 RoundTextField(
-                  hitText: "Password",
+                  hitText: "Senha",
                   icon: "assets/img/lock.png",
                   obscureText: true,
                   rigtIcon: TextButton(
@@ -93,7 +93,7 @@ class _LoginViewState extends State<LoginView> {
                         ),
                       ),
                       Text(
-                        "Cadastra-se",
+                        "Cadastre-se",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 14,

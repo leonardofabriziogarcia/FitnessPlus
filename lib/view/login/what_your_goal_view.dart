@@ -57,18 +57,18 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
                         borderRadius: BorderRadius.circular(25),
                       ),
                       padding: EdgeInsets.symmetric(
-                          vertical: media.width * 0.1, horizontal: 25),
+                          vertical: media.width * 0.05, horizontal: 20),
                       alignment: Alignment.center,
                       child: FittedBox(
                         child: Column(
                           children: [
                             Image.asset(
                               gObj["image"].toString(),
-                              width: media.width * 0.5,
+                              width: media.width * 0.2,
                               fit: BoxFit.fitWidth,
                             ),
                             SizedBox(
-                              height: media.width * 0.1,
+                              height: media.width * 0.05,
                             ),
                             Text(
                               gObj["title"].toString(),
@@ -104,6 +104,7 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
                 viewportFraction: 0.7,
                 aspectRatio: 0.74,
                 initialPage: 0,
+                
               ),
             ),
           ),
@@ -125,11 +126,11 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
                 Text(
                   "Aqui temos 3 opções, veja a que se encaixa melhor no seu caso",
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: TColor.gray, fontSize: 12),
+                  style: TextStyle(color: TColor.gray, fontSize: 11),
                 ),
                 const Spacer(),
                 SizedBox(
-                  height: media.width * 0.05,
+                  height: media.width * 0.2,
                 ),
                 RoundButton(
                     title: "Confirmar",

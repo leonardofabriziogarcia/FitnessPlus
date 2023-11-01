@@ -31,7 +31,7 @@ SizedBox(
               ),
                Image.asset(
                 "assets/img/welcome.png",
-                width: media.width * 0.75,
+                width: media.width * 0.3,
                 fit: BoxFit.fitWidth,
               ),
               SizedBox(

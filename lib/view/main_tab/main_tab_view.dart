@@ -4,7 +4,6 @@ import 'package:fitness/view/main_tab/select_view.dart';
 import 'package:flutter/material.dart';
 
 import '../home/home_view.dart';
-import '../photo_progress/photo_progress_view.dart';
 import '../profile/profile_view.dart';
 
 class MainTabView extends StatefulWidget {
@@ -91,7 +90,7 @@ class _MainTabViewState extends State<MainTabView> {
                 isActive: selectTab == 2,
                 onTap: () {
                   selectTab = 2;
-                   currentTab = const PhotoProgressView();
+                   currentTab = const ProfileView();
                   if (mounted) {
                     setState(() {});
                   }

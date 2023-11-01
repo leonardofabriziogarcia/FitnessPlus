@@ -41,14 +41,14 @@ class _SignUpViewState extends State<SignUpView> {
                   height: media.width * 0.05,
                 ),
                 const RoundTextField(
-                  hitText: "First Name",
+                  hitText: "Primeiro Nome",
                   icon: "assets/img/user_text.png",
                 ),
                 SizedBox(
                   height: media.width * 0.04,
                 ),
                 const RoundTextField(
-                  hitText: "Last Name",
+                  hitText: "Sobrenome",
                   icon: "assets/img/user_text.png",
                 ),
                 SizedBox(
@@ -63,7 +63,7 @@ class _SignUpViewState extends State<SignUpView> {
                   height: media.width * 0.04,
                 ),
                 RoundTextField(
-                  hitText: "Password",
+                  hitText: "Senha",
                   icon: "assets/img/lock.png",
                   obscureText: true,
                   rigtIcon: TextButton(
@@ -93,7 +93,7 @@ class _SignUpViewState extends State<SignUpView> {
                     Padding(
                       padding: const EdgeInsets.only(top: 8),
                       child: Text(
-                        "By continuing you accept our Privacy Policy and\nTerm of Use",
+                        "Para continuar, aceite a nossa Política de Privacidade e \nTermo de Uso",
                         style: TextStyle(color: TColor.gray, fontSize: 10),
                       ),
                     )
@@ -103,7 +103,7 @@ class _SignUpViewState extends State<SignUpView> {
                   height: media.width * 0.4,
                 ),
                 RoundButton(
-                    title: "Register",
+                    title: "Registrar",
                     onPressed: () {
                       Navigator.push(
                           context,
@@ -125,7 +125,7 @@ class _SignUpViewState extends State<SignUpView> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Text(
-                        "Already have an account? ",
+                        "Já possui uma conta? ",
                         style: TextStyle(
                           color: TColor.black,
                           fontSize: 14,

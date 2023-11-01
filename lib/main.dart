@@ -1,5 +1,6 @@
 
 import 'package:fitness/view/main_tab/main_tab_view.dart';
+import 'package:fitness/view/login/signup_view.dart';
 import 'package:flutter/material.dart';
 
 import 'common/colo_extension.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         primaryColor: TColor.primaryColor1,
         fontFamily: "Poppins"
       ),
-      home: const MainTabView(),
+      home: const SignUpView(),
     );
   }
 }
