@@ -18,13 +18,13 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
   List latestArr = [
     {
       "image": "assets/img/pic_4.png",
-      "title": "Drinking 300ml Water",
-      "time": "About 1 minutes ago"
+      "title": "Beber 300ml de água",
+      "time": "1 minuto atrás"
     },
     {
       "image": "assets/img/pic_5.png",
-      "title": "Eat Snack (Fitbar)",
-      "time": "About 3 hours ago"
+      "title": "Alimentar-se",
+      "time": "3 horas atrás"
     },
   ];
 
@@ -57,7 +57,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
           ),
         ),
         title: Text(
-          "Activity Tracker",
+          "Monitoramento de Atividade",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),
@@ -104,7 +104,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Today Target",
+                          "Objetivo do dia",
                           style: TextStyle(
                               color: TColor.black,
                               fontSize: 14,
@@ -148,7 +148,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                           child: TodayTargetCell(
                             icon: "assets/img/water.png",
                             value: "8L",
-                            title: "Water Intake",
+                            title: "Ingestão de água",
                           ),
                         ),
                         SizedBox(
@@ -158,7 +158,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                           child: TodayTargetCell(
                             icon: "assets/img/foot.png",
                             value: "2400",
-                            title: "Foot Steps",
+                            title: "Passos",
                           ),
                         ),
                       ],
@@ -173,7 +173,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Activity  Progress",
+                    "Evolução da atividade",
                     style: TextStyle(
                         color: TColor.black,
                         fontSize: 16,
@@ -188,7 +188,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                       ),
                       child: DropdownButtonHideUnderline(
                         child: DropdownButton(
-                          items: ["Weekly", "Monthly"]
+                          items: ["Semanal", "Mensal"]
                               .map((name) => DropdownMenuItem(
                                     value: name,
                                     child: Text(
@@ -201,7 +201,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                           onChanged: (value) {},
                           icon: Icon(Icons.expand_more, color: TColor.white),
                           hint: Text(
-                            "Weekly",
+                            "Semanal",
                             textAlign: TextAlign.center,
                             style: TextStyle(color: TColor.white, fontSize: 12),
                           ),
@@ -235,25 +235,25 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                         String weekDay;
                         switch (group.x) {
                           case 0:
-                            weekDay = 'Monday';
+                            weekDay = 'Segunda-feira';
                             break;
                           case 1:
-                            weekDay = 'Tuesday';
+                            weekDay = 'Terça-feira';
                             break;
                           case 2:
-                            weekDay = 'Wednesday';
+                            weekDay = 'Quarta-feira';
                             break;
                           case 3:
-                            weekDay = 'Thursday';
+                            weekDay = 'Quinta-feira';
                             break;
                           case 4:
-                            weekDay = 'Friday';
+                            weekDay = 'Sexta-feira';
                             break;
                           case 5:
-                            weekDay = 'Saturday';
+                            weekDay = 'Sábado';
                             break;
                           case 6:
-                            weekDay = 'Sunday';
+                            weekDay = 'Domingo';
                             break;
                           default:
                             throw Error();
