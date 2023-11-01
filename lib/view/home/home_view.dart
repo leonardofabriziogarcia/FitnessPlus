@@ -180,7 +180,7 @@ class _HomeViewState extends State<HomeView> {
                   children: [
                     Expanded(
                       child: Container(
-                        height: media.width * 0.95,
+                        height: media.width * 0.50,
                         padding: const EdgeInsets.symmetric(
                             vertical: 25, horizontal: 20),
                         decoration: BoxDecoration(
@@ -330,12 +330,9 @@ class _HomeViewState extends State<HomeView> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        SizedBox(
-                          height: media.width * 0.05,
-                        ),
                         Container(
                           width: double.maxFinite,
-                          height: media.width * 0.50,
+                          height: media.width * 0.5,
                           padding: const EdgeInsets.symmetric(
                               vertical: 25, horizontal: 20),
                           decoration: BoxDecoration(

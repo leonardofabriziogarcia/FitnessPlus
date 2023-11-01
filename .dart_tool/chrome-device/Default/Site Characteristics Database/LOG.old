@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-2023/10/31-16:45:35.997 2e50 Reusing MANIFEST C:\Users\helen\AppData\Local\Temp\flutter_tools.ee3b00aa\flutter_tools_chrome_device.203dc1cf\Default\Site Characteristics Database/MANIFEST-000001
-2023/10/31-16:45:35.998 2e50 Recovering log #3
-2023/10/31-16:45:35.998 2e50 Reusing old log C:\Users\helen\AppData\Local\Temp\flutter_tools.ee3b00aa\flutter_tools_chrome_device.203dc1cf\Default\Site Characteristics Database/000003.log 
-=======
-<<<<<<< HEAD
-2023/10/25-18:27:45.641 4e24 Reusing MANIFEST C:\Users\ianom\AppData\Local\Temp\flutter_tools.741fa5d9\flutter_tools_chrome_device.9875d2c3\Default\Site Characteristics Database/MANIFEST-000001
-=======
-2023/10/25-08:56:21.378 bcb8 Reusing MANIFEST C:\Users\helen\AppData\Local\Temp\flutter_tools.6f0223e7\flutter_tools_chrome_device.9b2e15b8\Default\Site Characteristics Database/MANIFEST-000001
-2023/10/25-08:56:21.380 bcb8 Recovering log #3
-2023/10/25-08:56:21.380 bcb8 Reusing old log C:\Users\helen\AppData\Local\Temp\flutter_tools.6f0223e7\flutter_tools_chrome_device.9b2e15b8\Default\Site Characteristics Database/000003.log 
->>>>>>> 5c44424f3db5ef049ab3b19c83271d2c10af7f39
->>>>>>> f32275ec1b0317d8089566bb404a46a004923cd4
+2023/11/01-10:35:28.882 3068 Log #3: 1 ops saved to Table #7 OK
+2023/11/01-10:35:28.886 3068 Archiving C:\Users\pedro\AppData\Local\Temp\flutter_tools.1551e299\flutter_tools_chrome_device.bc017398\Default\Site Characteristics Database/000003.log: OK
+2023/11/01-10:35:28.886 3068 Log #6: 0 ops saved to Table #8 OK
+2023/11/01-10:35:28.887 3068 Archiving C:\Users\pedro\AppData\Local\Temp\flutter_tools.1551e299\flutter_tools_chrome_device.bc017398\Default\Site Characteristics Database/000006.log: OK
+2023/11/01-10:35:28.887 3068 Table #4: 1 entries OK
+2023/11/01-10:35:28.888 3068 Table #6: 1 entries OK
+2023/11/01-10:35:28.888 3068 Table #7: 1 entries OK
+2023/11/01-10:35:28.891 3068 Archiving C:\Users\pedro\AppData\Local\Temp\flutter_tools.1551e299\flutter_tools_chrome_device.bc017398\Default\Site Characteristics Database/MANIFEST-000001: OK
+2023/11/01-10:35:28.997 3068 **** Repaired leveldb C:\Users\pedro\AppData\Local\Temp\flutter_tools.1551e299\flutter_tools_chrome_device.bc017398\Default\Site Characteristics Database; recovered 3 files; 390 bytes. Some data may have been lost. ****
