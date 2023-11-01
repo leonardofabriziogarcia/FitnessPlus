@@ -22,14 +22,13 @@ class _FinishedWorkoutViewState extends State<FinishedWorkoutView> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-        
               const SizedBox(height: 20,),
               Image.asset(
                 "assets/img/complete_workout.png",
                 height: media.width * 0.5,
                 fit: BoxFit.fitHeight,
               ),
-        
+
               const SizedBox(
                 height: 20,
               ),
@@ -72,7 +71,7 @@ class _FinishedWorkoutViewState extends State<FinishedWorkoutView> {
 
               const Spacer(),
                RoundButton(
-                  title: "Voltar para a página inicial",
+                  title: "Back To Home",
                   onPressed: () {
                     Navigator.pop(context);
                   }),
@@ -80,8 +79,6 @@ class _FinishedWorkoutViewState extends State<FinishedWorkoutView> {
                  const SizedBox(
                 height: 8,
               ),
-
-
 
             ],
           ),

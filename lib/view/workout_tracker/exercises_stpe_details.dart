@@ -145,7 +145,7 @@ class _ExercisesStepDetailsState extends State<ExercisesStepDetails> {
                 height: 4,
               ),
               Text(
-                "Easy | 390 Calories Burn",
+                "Fácil | 390 de Queima de calorias",
                 style: TextStyle(
                   color: TColor.gray,
                   fontSize: 12,
@@ -155,7 +155,7 @@ class _ExercisesStepDetailsState extends State<ExercisesStepDetails> {
                 height: 15,
               ),
               Text(
-                "Descriptions",
+                "Descrição",
                 style: TextStyle(
                     color: TColor.black,
                     fontSize: 16,
@@ -165,18 +165,18 @@ class _ExercisesStepDetailsState extends State<ExercisesStepDetails> {
                 height: 4,
               ),
               ReadMoreText(
-                'A jumping jack, also known as a star jump and called a side-straddle hop in the US military, is a physical jumping exercise performed by jumping to a position with the legs spread wide A jumping jack, also known as a star jump and called a side-straddle hop in the US military, is a physical jumping exercise performed by jumping to a position with the legs spread wide',
+                'Suba na esteira e comece com uma velocidade de 4km/h, vá aumentando gradativamente a velocidade porém, sem a necessidade de aumenta-lá demasiadamente.',
                 trimLines: 4,
                 colorClickableText: TColor.black,
                 trimMode: TrimMode.Line,
-                trimCollapsedText: ' Read More ...',
-                trimExpandedText: ' Read Less',
+                trimCollapsedText: ' Leia mais ...',
+                trimExpandedText: ' Leia menos',
                 style: TextStyle(
                   color: TColor.gray,
                   fontSize: 12,
                 ),
                 moreStyle:
-                    const TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+                    const TextStyle(fontSize: 12, fontWeight: FontWeight.w900),
               ),
               const SizedBox(
                 height: 15,
@@ -185,19 +185,12 @@ class _ExercisesStepDetailsState extends State<ExercisesStepDetails> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "How To Do It",
+                    "Como fazer",
                     style: TextStyle(
                         color: TColor.black,
                         fontSize: 16,
                         fontWeight: FontWeight.w700),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "${stepArr.length} Sets",
-                      style: TextStyle(color: TColor.gray, fontSize: 12),
-                    ),
-                  )
                 ],
               ),
               ListView.builder(
@@ -212,64 +205,6 @@ class _ExercisesStepDetailsState extends State<ExercisesStepDetails> {
                     isLast: stepArr.last == sObj,
                   );
                 }),
-              ),
-              Text(
-                "Custom Repetitions",
-                style: TextStyle(
-                    color: TColor.black,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w700),
-              ),
-              SizedBox(
-                height: 150,
-                child: CupertinoPicker.builder(
-                  itemExtent: 40,
-                  selectionOverlay: Container(
-                    width: double.maxFinite,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      border: Border(
-                        top: BorderSide(color: TColor.gray.withOpacity(0.2), width: 1),
-                        bottom: BorderSide(
-                            color: TColor.gray.withOpacity(0.2), width: 1),
-                      ),
-                    ),
-                  ),
-                  onSelectedItemChanged: (index) {},
-                  childCount: 60,
-                  itemBuilder: (context, index) {
-                    return Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset(
-                          "assets/img/burn.png",
-                          width: 15,
-                          height: 15,
-                          fit: BoxFit.contain,
-                        ),
-                        Text(
-                          " ${(index + 1) * 15} Calories Burn",
-                          style: TextStyle(color: TColor.gray, fontSize: 10),
-                        ),
-                        Text(
-                          " ${index + 1} ",
-                          style: TextStyle(
-                              color: TColor.gray,
-                              fontSize: 24,
-                              fontWeight: FontWeight.w500),
-                        ),
-                        Text(
-                          " times",
-                          style: TextStyle(color: TColor.gray, fontSize: 16),
-                        )
-                      ],
-                    );
-                  },
-                ),
-              ),
-              RoundButton(title: "Save", elevation: 0, onPressed: () {}),
-              const SizedBox(
-                height: 15,
               ),
             ],
           ),

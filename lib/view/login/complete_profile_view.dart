@@ -14,6 +14,9 @@ class CompleteProfileView extends StatefulWidget {
 
 class _CompleteProfileViewState extends State<CompleteProfileView> {
   TextEditingController txtDate = TextEditingController();
+  TextEditingController txtKg = TextEditingController();
+  TextEditingController txtg = TextEditingController();
+  TextEditingController txtCm = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +38,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                   height: media.width * 0.05,
                 ),
                 Text(
-                  "Vamos comparar o seu perfil",
+                  "Vamos completar o seu perfil",
                   style: TextStyle(
                       color: TColor.black,
                       fontSize: 20,
@@ -113,16 +116,16 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                         height: media.width * 0.04,
                       ),
                       Row(
-                        children: [
+                        children: [ 
                           Expanded(
                             child: RoundTextField(
-                              controller: txtDate,
+                              controller: txtKg,
                               hitText: "Seu peso",
                               icon: "assets/img/weight.png",
                             ),
                           ),
                           const SizedBox(
-                            width: 8,
+                            width: 8, 
                           ),
                           Container(
                             width: 50,
@@ -149,7 +152,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                         children: [
                           Expanded(
                             child: RoundTextField(
-                              controller: txtDate,
+                              controller: txtCm,
                               hitText: "Sua altura",
                               icon: "assets/img/hight.png",
                             ),
@@ -169,6 +172,39 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                             ),
                             child: Text(
                               "CM",
+                              style:
+                                  TextStyle(color: TColor.white, fontSize: 12),
+                            ),
+                          )
+                        ],
+                      ),
+                      SizedBox(
+                        height: media.width * 0.04,
+                      ),
+                      Row(
+                        children: [ 
+                          Expanded(
+                            child: RoundTextField(
+                              controller: txtg,
+                              hitText: "Meta de queima de calorias",
+                              icon: "assets/img/burn.png",
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 8,   
+                          ),
+                          Container(
+                            width: 50,
+                            height: 50,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: TColor.secondaryG,
+                              ),
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            child: Text(
+                              "G",
                               style:
                                   TextStyle(color: TColor.white, fontSize: 12),
                             ),

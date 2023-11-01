@@ -41,7 +41,7 @@ class WorkoutRow extends StatelessWidget {
                 ),
 
                 Text(
-                  "${ wObj["kcal"].toString() } Queima de calorias | ${wObj["time"].toString()}minutos",
+                  "${ wObj["kcal"].toString() } Queima de calorias | ${wObj["time"].toString()} minutos",
                   style: TextStyle(
                       color: TColor.gray,
                       fontSize: 10,),
@@ -49,21 +49,21 @@ class WorkoutRow extends StatelessWidget {
 
                const SizedBox(height: 4),
 
-                SimpleAnimationProgressBar(
-                  height: 15,
-                  width: media.width * 0.5,
-                  backgroundColor: Colors.grey.shade100,
-                  foregrondColor: Colors.purple,
-                  ratio: wObj["progress"] as double? ?? 0.0,
-                  direction: Axis.horizontal,
-                  curve: Curves.fastLinearToSlowEaseIn,
-                  duration: const Duration(seconds: 3),
-                  borderRadius: BorderRadius.circular(7.5),
-                  gradientColor: LinearGradient(
-                      colors: TColor.primaryG,
-                      begin: Alignment.centerLeft,
-                      end: Alignment.centerRight),
-                ),
+                // SimpleAnimationProgressBar(
+                //   height: 15,
+                //   width: media.width * 0.5,
+                //   backgroundColor: Colors.grey.shade100,
+                //   foregrondColor: Colors.purple,
+                //   ratio: wObj["progress"] as double? ?? 0.0,
+                //   direction: Axis.horizontal,
+                //   curve: Curves.fastLinearToSlowEaseIn,
+                //   duration: const Duration(seconds: 3),
+                //   borderRadius: BorderRadius.circular(7.5),
+                //   gradientColor: LinearGradient(
+                //       colors: TColor.primaryG,
+                //       begin: Alignment.centerLeft,
+                //       end: Alignment.centerRight),
+                // ),
 
               ],
             )),
