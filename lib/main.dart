@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         primaryColor: TColor.primaryColor1,
         fontFamily: "Poppins"
       ),
-      home: const SignUpView(),
+      home: const MainTabView(),
     );
   }
 }
