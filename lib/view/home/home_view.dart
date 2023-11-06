@@ -180,7 +180,7 @@ class _HomeViewState extends State<HomeView> {
                   children: [
                     Expanded(
                       child: Container(
-                        height: media.width * 0.50,
+                        height: media.width * 0.55,
                         padding: const EdgeInsets.symmetric(
                             vertical: 25, horizontal: 20),
                         decoration: BoxDecoration(
