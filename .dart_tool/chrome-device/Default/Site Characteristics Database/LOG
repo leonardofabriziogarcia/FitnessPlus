@@ -1,8 +1,9 @@
-<<<<<<< HEAD
-2023/11/01-11:05:49.878 8de4 Reusing MANIFEST C:\Users\ianom\AppData\Local\Temp\flutter_tools.40635e48\flutter_tools_chrome_device.385109dc\Default\Site Characteristics Database/MANIFEST-000001
-2023/11/01-11:05:49.879 8de4 Recovering log #6
-2023/11/01-11:05:49.884 8de4 Reusing old log C:\Users\ianom\AppData\Local\Temp\flutter_tools.40635e48\flutter_tools_chrome_device.385109dc\Default\Site Characteristics Database/000006.log 
-2023/11/01-11:05:49.885 8de4 Delete type=0 #3
-=======
-2023/11/01-10:35:29.002 3068 Reusing MANIFEST C:\Users\pedro\AppData\Local\Temp\flutter_tools.1551e299\flutter_tools_chrome_device.bc017398\Default\Site Characteristics Database/MANIFEST-000001
->>>>>>> b80a499d91fdeee93c5b88f44bf6e1b9d955df2d
+2023/11/07-19:05:05.851 3a7c Reusing MANIFEST C:\Users\Usuario\AppData\Local\Temp\flutter_tools.6c51a205\flutter_tools_chrome_device.57429108\Default\Site Characteristics Database/MANIFEST-000001
+2023/11/07-19:05:05.867 3a7c Recovering log #15
+2023/11/07-19:05:05.867 3a7c Reusing old log C:\Users\Usuario\AppData\Local\Temp\flutter_tools.6c51a205\flutter_tools_chrome_device.57429108\Default\Site Characteristics Database/000015.log 
+2023/11/07-19:05:05.868 3a7c Delete type=0 #3
+2023/11/07-19:05:05.868 3a7c Delete type=2 #4
+2023/11/07-19:05:05.868 3a7c Delete type=2 #6
+2023/11/07-19:05:05.868 3a7c Delete type=0 #6
+2023/11/07-19:05:05.868 3a7c Delete type=2 #7
+2023/11/07-19:05:05.870 3a7c Delete type=0 #10

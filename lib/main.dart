@@ -1,9 +1,10 @@
 
-import 'package:fitness/view/main_tab/main_tab_view.dart';
-import 'package:fitness/view/login/signup_view.dart';
+import 'package:fitness/view/main_tab/aba_principal.dart';
+import 'package:fitness/view/login/cadastro.dart';
+import 'package:fitness/view/on_boarding/primeira_pagina.dart';
 import 'package:flutter/material.dart';
 
-import 'common/colo_extension.dart';
+import 'common/cores.dart';
 
 void main() {
   runApp(const MyApp());
