@@ -1,5 +1,5 @@
 import 'package:fitness/common/cores.dart';
-import 'package:fitness/view/on_boarding/na_aba.dart';
+import 'package:fitness/view/login/cadastro.dart';
 import 'package:flutter/material.dart';
 
 import '../../common_widget/butao_redondo.dart';
@@ -47,28 +47,42 @@ class _StartedViewState extends State<StartedView> {
                   fontSize: 18,
                 ),
               ),
-              const Spacer(),
-              SafeArea(
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 15),
-                  child: RoundButton(
+              SizedBox(
+                height: media.width * 0.8,
+              ),
+              // SafeArea(
+              //   child: Padding(
+              //     padding: const EdgeInsets.symmetric(horizontal: 15),
+              //     child: RoundButton(
+              //       title: "Vamos começar!",
+              //       type: isChangeColor
+              //           ? RoundButtonType.textGradient
+              //           : RoundButtonType.bgGradient,    
+              //       onPressed: () {
+              //         //GO Next Screen
+              //         Navigator.push(
+              //             context,
+              //             MaterialPageRoute(
+              //                 builder: (context) => const SignUpView()));
+              //      },
+              //     ),
+              //   ),
+              // )
+              RoundButton(
                     title: "Vamos começar!",
-                    type: isChangeColor
-                        ? RoundButtonType.textGradient
-                        : RoundButtonType.bgGradient,
                     onPressed: () {
-                
-                        //GO Next Screen
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const OnBoardingView()));
-                      },
-                  ),
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  const SignUpView()));
+                    }),
+                SizedBox(
+                  height: media.width * 0.04,
                 ),
-              )
             ],
           )),
     );
+    
   }
 }

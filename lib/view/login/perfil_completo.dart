@@ -1,5 +1,5 @@
 import 'package:fitness/common/cores.dart';
-import 'package:fitness/view/login/objetivo.dart';
+import 'package:fitness/view/login/bem_vindo.dart';
 import 'package:flutter/material.dart';
 
 import '../../common_widget/butao_redondo.dart';
@@ -257,7 +257,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) =>
-                                        const WhatYourGoalView()));
+                                        const WelcomeView()));
                           }),
                     ],
                   ),

@@ -74,7 +74,6 @@ class _SignUpViewState extends State<SignUpView> {
                           height: 20)),
                 ),
                 Row(
-                  // crossAxisAlignment: CrossAxisAlignment.,
                   children: [
                     IconButton(
                       onPressed: () {

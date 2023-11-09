@@ -2,6 +2,7 @@ import 'package:fitness/common/cores.dart';
 import 'package:fitness/common_widget/icone_proxima_coluna.dart';
 import 'package:fitness/common_widget/butao_redondo.dart';
 import 'package:fitness/view/workout_tracker/exercises_stpe_details.dart';
+import 'package:fitness/view/main_tab/videos.dart';
 import 'package:fitness/view/workout_tracker/calendario_treinos.dart';
 import 'package:flutter/material.dart';
 
@@ -381,9 +382,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => ExercisesStepDetails(
-                                      eObj: obj,
-                                    ),
+                                    builder: (context) => const VideoView(),
                                   ),
                                 );
                               },

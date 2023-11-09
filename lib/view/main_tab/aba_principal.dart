@@ -1,6 +1,7 @@
 import 'package:fitness/common/cores.dart';
 import 'package:fitness/common_widget/butao_margem.dart';
 import 'package:fitness/view/main_tab/selecao.dart';
+import 'package:fitness/view/main_tab/videos.dart';
 import 'package:flutter/material.dart';
 
 import '../home/home.dart';
@@ -90,7 +91,7 @@ class _MainTabViewState extends State<MainTabView> {
                 isActive: selectTab == 2,
                 onTap: () {
                   selectTab = 2;
-                   currentTab = const ProfileView();
+                   currentTab = const VideoView();
                   if (mounted) {
                     setState(() {});
                   }

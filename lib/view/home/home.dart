@@ -5,6 +5,7 @@ import 'package:fitness/view/main_tab/selecao.dart';
 import 'package:fitness/view/workout_tracker/acompanhamento_treinos.dart';
 import 'package:flutter/material.dart';
 import 'package:fitness/view/workout_tracker/treino_inferiores.dart';
+import 'package:fitness/view/workout_tracker/treino_abdomen.dart';
 import 'package:simple_animation_progress_bar/simple_animation_progress_bar.dart';
 import 'package:fitness/view/workout_tracker/detalhes_treinp.dart';
 
@@ -180,7 +181,7 @@ class _HomeViewState extends State<HomeView> {
                   children: [
                     Expanded(
                       child: Container(
-                        height: media.width * 0.54,
+                        height: media.width *0.92,
                         padding: const EdgeInsets.symmetric(
                             vertical: 25, horizontal: 20),
                         decoration: BoxDecoration(
@@ -332,7 +333,7 @@ class _HomeViewState extends State<HomeView> {
                       children: [
                         Container(
                           width: double.maxFinite,
-                          height: media.width * 0.54,
+                          height: media.width * 0.92,
                           padding: const EdgeInsets.symmetric(
                               vertical: 25, horizontal: 20),
                           decoration: BoxDecoration(
@@ -370,7 +371,7 @@ class _HomeViewState extends State<HomeView> {
                                   ),
                                 ),
                                 SizedBox(
-                                  height: media.width * 0.12,
+                                  height: media.width * 0.18,
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -378,13 +379,13 @@ class _HomeViewState extends State<HomeView> {
                                       vertical: 0, horizontal: 30),
                                   child: SizedBox(
                                     width: media.width * 0.2,
-                                    height: media.width * 0.2,
+                                    height: media.width * 0.3,
                                     child: Stack(
                                       alignment: Alignment.center,
                                       children: [
                                         Container(
-                                          width: media.width * 0.15,
-                                          height: media.width * 0.15,
+                                          width: media.width *0.2,
+                                          height: media.width*0.2,
                                           alignment: Alignment.center,
                                           decoration: BoxDecoration(
                                             gradient: LinearGradient(
@@ -398,7 +399,7 @@ class _HomeViewState extends State<HomeView> {
                                               textAlign: TextAlign.center,
                                               style: TextStyle(
                                                   color: TColor.white,
-                                                  fontSize: 11),
+                                                  fontSize: 12),
                                             ),
                                           ),
                                         ),
@@ -490,7 +491,7 @@ class _HomeViewState extends State<HomeView> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            const ActivityTrackerView()));
+                                          TreinoAbdomen(dObj: aObj,)));
                                 break;
                             }
                           },

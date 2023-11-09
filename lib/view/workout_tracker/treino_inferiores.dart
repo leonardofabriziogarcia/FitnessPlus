@@ -1,6 +1,7 @@
 import 'package:fitness/common/cores.dart';
 import 'package:fitness/common_widget/icone_proxima_coluna.dart';
 import 'package:fitness/common_widget/butao_redondo.dart';
+import 'package:fitness/view/main_tab/videos.dart';
 import 'package:fitness/view/workout_tracker/exercises_stpe_details.dart';
 import 'package:fitness/view/workout_tracker/calendario_treinos.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +42,7 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
       "set": [
         {"image": "assets/img/img_1.png", "title": "Aquecimento", "value": "03:00"},
         {
-          "image": "assets/img/bulgaro_jpg",
+          "image": "assets/img/bulgaro.jpg",
           "title": "Agachamento búlgaro com halter",
           "value": "4 séries de 12x"
         },
@@ -74,7 +75,7 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
           "value": "02:00"
         },
         {
-          "image": "assets/img/lunges.jpeg",
+          "image": "assets/img/lunges.jpg",
           "title": "Lunges com halter",
           "value": "4 séries de 12x"
         },
@@ -84,7 +85,7 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
           "value": "02:00"
         },
         {
-          "image": "assets/img/deadlift_unilateral.jpeg",
+          "image": "assets/img/deadlift_unilateral.jpg",
           "title": "Deadlift romento unilateral",
           "value": "4 séries de 12x"
         },
@@ -348,9 +349,7 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => ExercisesStepDetails(
-                                      eObj: obj,
-                                    ),
+                                    builder: (context) => const VideoView(),
                                   ),
                                 );
                               },

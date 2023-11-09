@@ -1,5 +1,6 @@
 import 'package:fitness/common/cores.dart';
 import 'package:fitness/view/workout_tracker/detalhes_treinp.dart';
+import 'package:fitness/view/workout_tracker/treino_abdomen.dart';
 import 'package:fitness/view/workout_tracker/treino_inferiores.dart';
 import 'package:fitness/view/home/acompanhamento_atividade.dart';
 import 'package:fl_chart/fl_chart.dart';
@@ -230,7 +231,7 @@ class _WorkoutTrackerViewState extends State<WorkoutTrackerView> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            const ActivityTrackerView()));
+                                           TreinoAbdomen(dObj: wObj,)));
                                 break;
                             }
                           },

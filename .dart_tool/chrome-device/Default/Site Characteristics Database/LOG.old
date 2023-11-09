@@ -1,9 +1,22 @@
-2023/11/07-18:15:35.723 4cc4 Reusing MANIFEST C:\Users\Usuario\AppData\Local\Temp\flutter_tools.a21aa6f9\flutter_tools_chrome_device.5ffd8879\Default\Site Characteristics Database/MANIFEST-000001
-2023/11/07-18:15:35.744 4cc4 Recovering log #15
-2023/11/07-18:15:35.745 4cc4 Reusing old log C:\Users\Usuario\AppData\Local\Temp\flutter_tools.a21aa6f9\flutter_tools_chrome_device.5ffd8879\Default\Site Characteristics Database/000015.log 
-2023/11/07-18:15:35.746 4cc4 Delete type=0 #3
-2023/11/07-18:15:35.746 4cc4 Delete type=2 #4
-2023/11/07-18:15:35.746 4cc4 Delete type=2 #6
-2023/11/07-18:15:35.747 4cc4 Delete type=0 #6
-2023/11/07-18:15:35.747 4cc4 Delete type=2 #7
-2023/11/07-18:15:35.747 4cc4 Delete type=0 #10
+2023/11/08-09:49:51.215 aa50 Log #3: 1 ops saved to Table #22 OK
+2023/11/08-09:49:51.262 aa50 Archiving C:\Users\ianom\AppData\Local\Temp\flutter_tools.dff69930\flutter_tools_chrome_device.f8f29b87\Default\Site Characteristics Database/000003.log: OK
+2023/11/08-09:49:51.266 aa50 Log #6: 1 ops saved to Table #23 OK
+2023/11/08-09:49:51.270 aa50 Archiving C:\Users\ianom\AppData\Local\Temp\flutter_tools.dff69930\flutter_tools_chrome_device.f8f29b87\Default\Site Characteristics Database/000006.log: OK
+2023/11/08-09:49:51.273 aa50 Log #10: 1 ops saved to Table #24 OK
+2023/11/08-09:49:51.277 aa50 Archiving C:\Users\ianom\AppData\Local\Temp\flutter_tools.dff69930\flutter_tools_chrome_device.f8f29b87\Default\Site Characteristics Database/000010.log: OK
+2023/11/08-09:49:51.282 aa50 Log #15: 9 ops saved to Table #25 OK
+2023/11/08-09:49:51.284 aa50 Archiving C:\Users\ianom\AppData\Local\Temp\flutter_tools.dff69930\flutter_tools_chrome_device.f8f29b87\Default\Site Characteristics Database/000015.log: OK
+2023/11/08-09:49:51.284 aa50 Table #4: 1 entries OK
+2023/11/08-09:49:51.285 aa50 Table #6: 1 entries OK
+2023/11/08-09:49:51.285 aa50 Table #7: 1 entries OK
+2023/11/08-09:49:51.285 aa50 Table #16: 1 entries OK
+2023/11/08-09:49:51.285 aa50 Table #17: 1 entries OK
+2023/11/08-09:49:51.286 aa50 Table #19: 1 entries OK
+2023/11/08-09:49:51.286 aa50 Table #20: 1 entries OK
+2023/11/08-09:49:51.286 aa50 Table #21: 1 entries OK
+2023/11/08-09:49:51.286 aa50 Table #22: 1 entries OK
+2023/11/08-09:49:51.286 aa50 Table #23: 1 entries OK
+2023/11/08-09:49:51.287 aa50 Table #24: 1 entries OK
+2023/11/08-09:49:51.287 aa50 Table #25: 9 entries OK
+2023/11/08-09:49:51.291 aa50 Archiving C:\Users\ianom\AppData\Local\Temp\flutter_tools.dff69930\flutter_tools_chrome_device.f8f29b87\Default\Site Characteristics Database/MANIFEST-000001: OK
+2023/11/08-09:49:51.310 aa50 **** Repaired leveldb C:\Users\ianom\AppData\Local\Temp\flutter_tools.dff69930\flutter_tools_chrome_device.f8f29b87\Default\Site Characteristics Database; recovered 12 files; 1938 bytes. Some data may have been lost. ****

@@ -1,5 +1,6 @@
 
 import 'package:fitness/view/main_tab/aba_principal.dart';
+import 'package:fitness/view/main_tab/videos.dart';
 import 'package:fitness/view/login/cadastro.dart';
 import 'package:fitness/view/on_boarding/primeira_pagina.dart';
 import 'package:flutter/material.dart';
