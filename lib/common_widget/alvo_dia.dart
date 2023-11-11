@@ -11,7 +11,7 @@ class TodayTargetCell extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 70,
+      height: 80,
       padding: const EdgeInsets.all(8),
       decoration: BoxDecoration(
         color: TColor.white,

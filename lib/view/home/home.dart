@@ -115,21 +115,6 @@ class _HomeViewState extends State<HomeView> {
                         ),
                       ],
                     ),
-                    IconButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const NotificationView(),
-                            ),
-                          );
-                        },
-                        icon: Image.asset(
-                          "assets/img/notification_active.png",
-                          width: 25,
-                          height: 25,
-                          fit: BoxFit.fitHeight,
-                        ))
                   ],
                 ),
                 SizedBox(

@@ -46,14 +46,6 @@ class LatestActivityRow extends StatelessWidget {
 
               ],
             )),
-            IconButton(
-                onPressed: () {},
-                icon: Image.asset(
-                  "assets/img/sub_menu.png",
-                  width: 12,
-                  height: 12,
-                  fit: BoxFit.contain,
-                ))
           ],
         ));
   }

@@ -66,30 +66,16 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),
-        actions: [
-          InkWell(
-            onTap: () {},
-            child: Container(
-              margin: const EdgeInsets.all(8),
-              height: 40,
-              width: 40,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                  color: TColor.lightGray,
-                  borderRadius: BorderRadius.circular(10)),
-            ),
-          )
-        ],
       ),
       backgroundColor: TColor.white,
       body: SingleChildScrollView(
         child: Container(
-          padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 25),
+          padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
           child: Column(
             children: [
               Container(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
+                    const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [
                     TColor.primaryColor2.withOpacity(0.3),
@@ -133,18 +119,17 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                             title: "Passos",
                           ),
                         ),
-                        SizedBox(
-                          width: 15,
-                        ),
-                        Expanded(
-                          child: TodayTargetCell(
-                            icon: "assets/img/what_5.png",
-                            value: "Treino de superiores",
-                            title: "Treinos",
-                          ),
-                        ),
+                      ],
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    const Row(
+                      children: [
+                        Expanded(child: TodayTargetCell(icon: "assets/img/what_5.png", value: "Treino de superiores", title: "Treinos"))
                       ],
                     )
+
                   ],
                 ),
               ),
@@ -181,97 +166,4 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
       ),
     );
   }
-
-  Widget getTitles(double value, TitleMeta meta) {
-    var style = TextStyle(
-      color: TColor.gray,
-      fontWeight: FontWeight.w500,
-      fontSize: 12,
-    );
-    Widget text;
-    switch (value.toInt()) {
-      case 0:
-        text =  Text('Sun', style: style);
-        break;
-      case 1:
-        text =  Text('Mon', style: style);
-        break;
-      case 2:
-        text =  Text('Tue', style: style);
-        break;
-      case 3:
-        text =  Text('Wed', style: style);
-        break;
-      case 4:
-        text =  Text('Thu', style: style);
-        break;
-      case 5:
-        text =  Text('Fri', style: style);
-        break;
-      case 6:
-        text =  Text('Sat', style: style);
-        break;
-      default:
-        text =  Text('', style: style);
-        break;
-    }
-    return SideTitleWidget(
-      axisSide: meta.axisSide,
-      space: 16,
-      child: text,
-    );
-  }
-   List<BarChartGroupData> showingGroups() => List.generate(7, (i) {
-        switch (i) {
-          case 0:
-            return makeGroupData(0, 5, TColor.primaryG , isTouched: i == touchedIndex);
-          case 1:
-            return makeGroupData(1, 10.5, TColor.secondaryG, isTouched: i == touchedIndex);
-          case 2:
-            return makeGroupData(2, 5, TColor.primaryG , isTouched: i == touchedIndex);
-          case 3:
-            return makeGroupData(3, 7.5, TColor.secondaryG, isTouched: i == touchedIndex);
-          case 4:
-            return makeGroupData(4, 15, TColor.primaryG , isTouched: i == touchedIndex);
-          case 5:
-            return makeGroupData(5, 5.5, TColor.secondaryG, isTouched: i == touchedIndex);
-          case 6:
-            return makeGroupData(6, 8.5, TColor.primaryG , isTouched: i == touchedIndex);
-          default:
-            return throw Error();
-        }
-      });
-
-    BarChartGroupData makeGroupData(
-    int x,
-    double y,
-    List<Color> barColor,
-     {
-    bool isTouched = false,
-    
-    double width = 22,
-    List<int> showTooltips = const [],
-  }) {
-    
-    return BarChartGroupData(
-      x: x,
-      barRods: [
-        BarChartRodData(
-          toY: isTouched ? y + 1 : y,
-          gradient: LinearGradient(colors: barColor, begin: Alignment.topCenter, end: Alignment.bottomCenter ),
-          width: width,
-          borderSide: isTouched
-              ? const BorderSide(color: Colors.green)
-              : const BorderSide(color: Colors.white, width: 0),
-          backDrawRodData: BackgroundBarChartRodData(
-            show: true,
-            toY: 20,
-            color: TColor.lightGray,
-          ),
-        ),
-      ],
-      showingTooltipIndicators: showTooltips,
-    );
-  }
-
 }
