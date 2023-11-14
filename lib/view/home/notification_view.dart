@@ -48,7 +48,7 @@ class _NotificationViewState extends State<NotificationView> {
           ),
         ),
         title: Text(
-          "Notification",
+          "Notificação",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),

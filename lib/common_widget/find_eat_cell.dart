@@ -76,7 +76,7 @@ class FindEatCell extends StatelessWidget {
                   type: isEvent
                       ? RoundButtonType.bgGradient
                       : RoundButtonType.bgSGradient,
-                  title: "Select",
+                  title: "Escolha",
                   onPressed: () {}),
             ),
           ),
