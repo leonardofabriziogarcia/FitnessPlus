@@ -1,11 +1,12 @@
-import 'package:fitness/common/colo_extension.dart';
-import 'package:fitness/common_widget/icon_title_next_row.dart';
-import 'package:fitness/common_widget/round_button.dart';
+import 'package:fitness/common/cores.dart';
+import 'package:fitness/common_widget/icone_proxima_coluna.dart';
+import 'package:fitness/common_widget/butao_redondo.dart';
+import 'package:fitness/view/main_tab/videos.dart';
 import 'package:fitness/view/workout_tracker/exercises_stpe_details.dart';
-import 'package:fitness/view/workout_tracker/workout_schedule_view.dart';
+import 'package:fitness/view/workout_tracker/calendario_treinos.dart';
 import 'package:flutter/material.dart';
 
-import '../../common_widget/exercises_set_section.dart';
+import '../../common_widget/set_exercicios.dart';
 
 class TreinoInferiores extends StatefulWidget {
   final Map dObj;
@@ -41,81 +42,81 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
       "set": [
         {"image": "assets/img/img_1.png", "title": "Aquecimento", "value": "03:00"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/bulgaro.jpg",
           "title": "Agachamento búlgaro com halter",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
-        {"image": "assets/img/img_1.png", "title": "Panturrilha livre", "value": "4 séries de 12x"},
+        {"image": "assets/img/panturrilha.jpeg", "title": "Panturrilha livre", "value": "4 séries de 12x"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
-        {"image": "assets/img/img_2.png", "title": "Agachamento com anilha", "value": " 4 séries de 12x"},
+        {"image": "assets/img/stiff_halter.jpg", "title": "Deadlift com halter", "value": " 4 séries de 12x"},
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
 
         {
-          "image": "assets/img/img_1.png",
-          "title": "Coice na polia",
+          "image": "assets/img/agachamento_globet.jpg",
+          "title": "Agachamento globet",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
         {
-          "image": "assets/img/img_1.png",
-          "title": "Leg press",
+          "image": "assets/img/lunges.jpg",
+          "title": "Lunges com halter",
           "value": "4 séries de 12x"
         },
         {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
         {
-          "image": "assets/img/img_1.png",
-          "title": "Cadeira flexora",
+          "image": "assets/img/deadlift_unilateral.jpg",
+          "title": "Deadlift romento unilateral",
           "value": "4 séries de 12x"
         },
            {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
            {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/elevacao_lateral.jpg",
           "title": "Elevação lateral",
           "value": "4 séries de 12x"
         },
            {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
            {
-          "image": "assets/img/img_1.png",
+          "image": "assets/img/elevacao_frontal.jpg",
           "title": "Elevação frontal unilateral",
           "value": "4 séries de 12x"
         },
            {
-          "image": "assets/img/img_2.png",
+          "image": "assets/img/descanso.jpeg",
           "title": "Descanso",
           "value": "02:00"
         },
            {
-          "image": "assets/img/img_1.png",
-          "title": "Desenvolvimento",
+          "image": "assets/img/desenvolvimento.jpeg",
+          "title": "Desenvolvimento de ombros",
           "value": "4 séries de 12x"
         },
       ],
@@ -237,15 +238,6 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
                       SizedBox(
                         height: media.width * 0.05,
                       ),
-                      // IconTitleNextRow(
-                      //     icon: "assets/img/time.png",
-                      //     title: "Schedule Workout",
-                      //     time: "5/27, 09:00 AM",
-                      //     color: TColor.primaryColor2.withOpacity(0.3),
-                      //     onPressed: () {
-
-                      //         Navigator.push(context, MaterialPageRoute(builder: (context) => const WorkoutScheduleView() )  );
-                      //     }),
                       SizedBox(
                         height: media.width * 0.02,
                       ),
@@ -357,9 +349,7 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => ExercisesStepDetails(
-                                      eObj: obj,
-                                    ),
+                                    builder: (context) => const VideoView(),
                                   ),
                                 );
                               },
