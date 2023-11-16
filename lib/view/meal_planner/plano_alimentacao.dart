@@ -215,10 +215,10 @@ class _MealPlannerViewState extends State<MealPlannerView> {
                       onTap: (){
                         Navigator.push(context, MaterialPageRoute(builder: (context) => MealFoodDetailsView(eObj: fObj) ) );
                       },
-                      child: FindEatCell(
-                        fObj: fObj,
-                        index: index,
-                      ),
+                      // child: FindEatCell(
+                      //   fObj: fObj,
+                      //   index: index,
+                      // ),
                     );
                   }),
             ),

@@ -15,8 +15,7 @@ class _VideoPlayerState extends State<VideoPlayer> {
 
   Source currentSource = Source.Asset;
 
-  Uri videoUri = Uri.parse(
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4");
+  
   String assetVideoPath = "assets/exercicios/Supino_Reto_com_Halteres.mp4";
 
   @override
@@ -35,51 +34,13 @@ class _VideoPlayerState extends State<VideoPlayer> {
         children: [
           CustomVideoPlayer(
               customVideoPlayerController: _customVideoPlayerController),
-          _sourceButtons(),
+          
         ],
       ),
     );
   }
 
-  Widget _sourceButtons() {
-    return Row(
-      mainAxisSize: MainAxisSize.max,
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        MaterialButton(
-          color: Colors.red,
-          child: const Text(
-            "Network",
-            style: TextStyle(
-              color: Colors.white,
-            ),
-          ),
-          onPressed: () {
-            setState(() {
-              currentSource = Source.Network;
-              initializeVideoPlayer(currentSource);
-            });
-          },
-        ),
-        MaterialButton(
-          color: Colors.red,
-          child: const Text(
-            "Asset",
-            style: TextStyle(
-              color: Colors.white,
-            ),
-          ),
-          onPressed: () {
-            setState(() {
-              currentSource = Source.Asset;
-              initializeVideoPlayer(currentSource);
-            });
-          },
-        ),
-      ],
-    );
-  }
+  
 
   void initializeVideoPlayer(Source source) {
     VideoPlayerController _videoPlayerController;
@@ -88,10 +49,6 @@ class _VideoPlayerState extends State<VideoPlayer> {
         ..initialize().then((value) {
           setState(() {});
         });
-    } else if (source == Source.Network){
-      _videoPlayerController = VideoPlayerController.networkUrl(videoUri)..initialize().then((value){
-        setState(() {});
-      });
     } else {
       return;
     }
