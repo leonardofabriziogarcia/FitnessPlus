@@ -24,7 +24,7 @@ class _TreinosAtivosViewState extends State<TreinosAtivosView> {
     {
       "name": "Treino de Superiores",
       "image": "assets/img/what_5.png",
-      "kcal": "500",
+      "kcal": "Entre 600 a 800",
       "tag":'1',
       "time": "90",
       "progress": 0.3
@@ -32,7 +32,7 @@ class _TreinosAtivosViewState extends State<TreinosAtivosView> {
     {
       "name": "Treino de Inferiores",
       "image": "assets/img/Workout2.png",
-      "kcal": "800",
+      "kcal": "Entre 800 a 1000",
       "tag":'2',
       "time": "120",
       "progress": 0.4
@@ -40,7 +40,7 @@ class _TreinosAtivosViewState extends State<TreinosAtivosView> {
     {
       "name": "Abdominais e Antebraço",
       "image": "assets/img/Workout3.png",
-      "kcal": "300",
+      "kcal": "Entre 300 a 500",
       "tag":'3',
       "time": "60",
       "progress": 0.7
@@ -74,6 +74,31 @@ class _TreinosAtivosViewState extends State<TreinosAtivosView> {
       var media = MediaQuery.of(context).size;
 
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: TColor.white,
+        centerTitle: true,
+        elevation: 0,
+        leading: InkWell(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: Container(
+            margin: const EdgeInsets.all(8),
+            height: 40,
+            width: 40,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+                color: TColor.lightGray,
+                borderRadius: BorderRadius.circular(10)),
+            child: Image.asset(
+              "assets/img/black_btn.png",
+              width: 15,
+              height: 15,
+              fit: BoxFit.contain,
+            ),
+          ),
+        ),
+      ),
       backgroundColor: TColor.white,
       body: SingleChildScrollView(
         child: SafeArea(
