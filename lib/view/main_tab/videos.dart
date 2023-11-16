@@ -1,6 +1,7 @@
 import 'package:fitness/common_widget/butao_redondo.dart';
 import 'package:fitness/common_widget/coluna_treino.dart';
 import 'package:fitness/common_widget/coluna_videos.dart';
+import 'package:fitness/view/videos/supino_reto.dart';
 import 'package:flutter/material.dart';
 
 import '../../common/cores.dart';
@@ -242,7 +243,7 @@ class _VideoViewState extends State<VideoView> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            WorkoutRow(wObj: wObj)));
+                                            const VideoPlayer()));
                                 break;
                               //  JAPOLE ESCREVER AQUI
                             }

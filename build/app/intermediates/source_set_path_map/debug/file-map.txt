@@ -7,7 +7,10 @@ com.codeforany.fitness.app-mergeDebugResources-5 C:\Users\Public\FitnessPlus\bui
 com.codeforany.fitness.app-mergeDebugResources-6 C:\Users\Public\FitnessPlus\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
 com.codeforany.fitness.app-merged_res-7 C:\Users\Public\FitnessPlus\build\app\intermediates\merged_res\debug
 com.codeforany.fitness.app-packaged_res-8 C:\Users\Public\FitnessPlus\build\simple_animation_progress_bar\intermediates\packaged_res\debug
-com.codeforany.fitness.app-jetified-window-java-1.0.0-beta04-9 C:\Users\ianom\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
-com.codeforany.fitness.app-core-1.6.0-10 C:\Users\ianom\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
-com.codeforany.fitness.app-jetified-annotation-experimental-1.1.0-11 C:\Users\ianom\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
-com.codeforany.fitness.app-jetified-window-1.0.0-beta04-12 C:\Users\ianom\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.codeforany.fitness.app-packaged_res-9 C:\Users\Public\FitnessPlus\build\video_player_android\intermediates\packaged_res\debug
+com.codeforany.fitness.app-jetified-window-java-1.0.0-beta04-10 C:\Users\ianom\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.codeforany.fitness.app-core-1.7.0-11 C:\Users\ianom\.gradle\caches\transforms-3\74ce2690f7529852b8321388684fcbb6\transformed\core-1.7.0\res
+com.codeforany.fitness.app-lifecycle-runtime-2.3.1-12 C:\Users\ianom\.gradle\caches\transforms-3\76da31ad033c53187dd7271282d0f7d2\transformed\lifecycle-runtime-2.3.1\res
+com.codeforany.fitness.app-jetified-annotation-experimental-1.1.0-13 C:\Users\ianom\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.codeforany.fitness.app-jetified-window-1.0.0-beta04-14 C:\Users\ianom\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.codeforany.fitness.app-jetified-exoplayer-core-2.18.7-15 C:\Users\ianom\.gradle\caches\transforms-3\ef2321c8ef384bd7d821c1ecf44a36ab\transformed\jetified-exoplayer-core-2.18.7\res

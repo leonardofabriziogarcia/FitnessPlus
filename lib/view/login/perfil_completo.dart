@@ -11,10 +11,9 @@ class CompleteProfileView extends StatefulWidget {
   @override
   State<CompleteProfileView> createState() => _CompleteProfileViewState();
 }
-
+const List<String> list = <String>[ 'Masculino', 'Feminino'];
 class _CompleteProfileViewState extends State<CompleteProfileView> {
-  List<String> items = ['Masculino', 'Feminino'];
-  String? selectedItem = 'Escolha seu genero';
+  String dropdownValue = list.first;
   TextEditingController txtDate = TextEditingController();
   TextEditingController txtKg = TextEditingController();
   TextEditingController txtg = TextEditingController();
@@ -77,30 +76,48 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                                   fit: BoxFit.contain,
                                   color: TColor.gray,
                                 )),
-                            Expanded(
-                              child: DropdownButtonHideUnderline(
-                                child: DropdownButton(
-                                  items: ["Masculino", "Feminino"]
-                                      .map((name) => DropdownMenuItem(
-                                            value: name,
-                                            child: Text(
-                                              name,
-                                              style: TextStyle(
-                                                  color: TColor.gray,
-                                                  fontSize: 14),
-                                            ),
-                                          ))
-                                      .toList(),
-                                  onChanged: (value) {},
-                                  isExpanded: true,
-                                  hint: Text(
-                                    "Escolha o gênero",
-                                    style: TextStyle(
-                                        color: TColor.gray, fontSize: 12),
-                                  ),
-                                ),
-                              ),
-                            ),
+                            // Expanded(
+                            //   child: DropdownButtonHideUnderline(
+                            //     child: DropdownButton(
+                            //       items: ["Masculino", "Feminino"]
+                            //           .map((name) => DropdownMenuItem(
+                            //                 value: name,
+                            //                 child: Text(
+                            //                   name,
+                            //                   style: TextStyle(
+                            //                       color: TColor.gray,
+                            //                       fontSize: 14),
+                            //                 ),
+                            //               ))
+                            //           .toList(),
+                            //       onChanged: (value) {},
+                            //       isExpanded: true,
+                            //       hint: Text(
+                            //         "Escolha o gênero",
+                            //         style: TextStyle(
+                            //             color: TColor.gray, fontSize: 12),
+                            //       ),
+                            //     ),
+                            //   ),
+                            // ),
+                            DropdownButton<String>(
+                                value: dropdownValue,
+                                icon: const Icon(Icons.arrow_downward),
+                                elevation: 16,
+                                style: const TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
+                                onChanged: (String? value) {
+                                  // This is called when the user selects an item.
+                                  setState(() {
+                                    dropdownValue = value!;
+                                  });
+                                },
+                                items: list.map<DropdownMenuItem<String>>((String value) {
+                                  return DropdownMenuItem<String>(
+                                    value: value,
+                                    child: Text(value),
+                                  );
+                                }).toList(),
+                          ),
                             const SizedBox(
                               width: 8,
                             )
@@ -112,7 +129,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                       ),
                       RoundTextField(
                         controller: txtDate,
-                        hitText: "Data de Nascimento",
+                        hitText: "Sua idade",
                         icon: "assets/img/date.png",
                       ),
                       SizedBox(

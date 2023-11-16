@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
         primaryColor: TColor.primaryColor1,
         fontFamily: "Poppins"
       ),
-      // ***home: const MainTabView(),
-      home: VideoPlayer(),
+      home: const MainTabView(),
+     
     );
   }
 }
