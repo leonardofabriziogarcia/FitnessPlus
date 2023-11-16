@@ -1,21 +1,19 @@
-2023/11/08-09:49:51.315 aa50 Reusing MANIFEST C:\Users\ianom\AppData\Local\Temp\flutter_tools.dff69930\flutter_tools_chrome_device.f8f29b87\Default\Site Characteristics Database/MANIFEST-000001
-2023/11/08-09:49:51.317 6fe8 Compacting 6@0 + 0@1 files
-2023/11/08-09:49:51.328 6fe8 Generated table #28@0: 1 keys, 165 bytes
-2023/11/08-09:49:51.328 6fe8 Compacted 6@0 + 0@1 files => 165 bytes
-2023/11/08-09:49:51.329 6fe8 compacted to: files[ 6 1 0 0 0 0 0 ]
-2023/11/08-09:49:51.330 6fe8 Delete type=2 #16
-2023/11/08-09:49:51.330 6fe8 Delete type=2 #20
-2023/11/08-09:49:51.330 6fe8 Delete type=2 #21
-2023/11/08-09:49:51.330 6fe8 Delete type=2 #23
-2023/11/08-09:49:51.330 6fe8 Delete type=2 #24
-2023/11/08-09:49:51.330 6fe8 Delete type=2 #25
-2023/11/08-09:49:51.333 6fe8 Compacting 6@0 + 0@1 files
-2023/11/08-09:49:51.336 6fe8 Generated table #29@0: 1 keys, 130 bytes
-2023/11/08-09:49:51.336 6fe8 Compacted 6@0 + 0@1 files => 130 bytes
-2023/11/08-09:49:51.337 6fe8 compacted to: files[ 0 2 0 0 0 0 0 ]
-2023/11/08-09:49:51.337 6fe8 Delete type=2 #4
-2023/11/08-09:49:51.337 6fe8 Delete type=2 #6
-2023/11/08-09:49:51.338 6fe8 Delete type=2 #7
-2023/11/08-09:49:51.338 6fe8 Delete type=2 #17
-2023/11/08-09:49:51.338 6fe8 Delete type=2 #19
-2023/11/08-09:49:51.338 6fe8 Delete type=2 #22
+2023/11/16-08:42:41.553 254c Reusing MANIFEST C:\Users\pedro\AppData\Local\Temp\flutter_tools.4bb9a350\flutter_tools_chrome_device.fe0734c6\Default\Site Characteristics Database/MANIFEST-000001
+2023/11/16-08:42:41.573 254c Recovering log #36
+2023/11/16-08:42:41.573 254c Reusing old log C:\Users\pedro\AppData\Local\Temp\flutter_tools.4bb9a350\flutter_tools_chrome_device.fe0734c6\Default\Site Characteristics Database/000036.log 
+2023/11/16-08:42:41.574 254c Delete type=0 #3
+2023/11/16-08:42:41.574 254c Delete type=2 #4
+2023/11/16-08:42:41.574 254c Delete type=2 #6
+2023/11/16-08:42:41.574 254c Delete type=0 #6
+2023/11/16-08:42:41.574 254c Delete type=2 #7
+2023/11/16-08:42:41.574 254c Delete type=0 #10
+2023/11/16-08:42:41.574 254c Delete type=0 #15
+2023/11/16-08:42:41.575 254c Delete type=2 #16
+2023/11/16-08:42:41.575 254c Delete type=2 #17
+2023/11/16-08:42:41.575 254c Delete type=2 #19
+2023/11/16-08:42:41.575 254c Delete type=2 #20
+2023/11/16-08:42:41.575 254c Delete type=2 #21
+2023/11/16-08:42:41.575 254c Delete type=0 #27
+2023/11/16-08:42:41.575 254c Delete type=2 #28
+2023/11/16-08:42:41.575 254c Delete type=2 #29
+2023/11/16-08:42:41.575 254c Delete type=2 #37
