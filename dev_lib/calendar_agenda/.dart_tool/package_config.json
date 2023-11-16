@@ -146,7 +146,15 @@
       "languageVersion": "2.12"
     }
   ],
+<<<<<<< HEAD
   "generated": "2023-11-14T01:04:16.413478Z",
+=======
+<<<<<<< HEAD
+  "generated": "2023-11-08T00:33:34.947086Z",
+=======
+  "generated": "2023-11-11T17:52:31.110974Z",
+>>>>>>> 5e32ffc7da09c7b6b0c4776bd53627a6f19659aa
+>>>>>>> 7ebd1039e545fcfc95cdd6f1fdaaadba2031cad2
   "generator": "pub",
   "generatorVersion": "3.1.0"
 }
