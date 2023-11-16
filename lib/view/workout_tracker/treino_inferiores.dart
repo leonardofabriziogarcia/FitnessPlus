@@ -217,7 +217,7 @@ class _TreinoInferioresState extends State<TreinoInferiores> {
                                       fontWeight: FontWeight.w700),
                                 ),
                                 Text(
-                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()} | Queima de 330 calorias",
+                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()} | Queima de 800 a 1000 calorias",
                                   style: TextStyle(
                                       color: TColor.gray, fontSize: 12),
                                 ),

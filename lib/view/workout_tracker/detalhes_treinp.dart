@@ -241,7 +241,7 @@ class _WorkoutDetailViewState extends State<WorkoutDetailView> {
                                       fontWeight: FontWeight.w700),
                                 ),
                                 Text(
-                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()} | Queima de 330 calorias",
+                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()} | Queima de 600 a 800 calorias",
                                   style: TextStyle(
                                       color: TColor.gray, fontSize: 12),
                                 ),

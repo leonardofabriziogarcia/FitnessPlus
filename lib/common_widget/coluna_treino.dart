@@ -37,14 +37,14 @@ class WorkoutRow extends StatelessWidget {
                   wObj["name"].toString(),
                   style: TextStyle(
                       color: TColor.black,
-                      fontSize: 12),
+                      fontSize: 13),
                 ),
 
                 Text(
-                  "${ wObj["kcal"].toString() } Queima de calorias | ${wObj["time"].toString()} minutos",
+                  "Queima ${ wObj["kcal"].toString() } calorias | ${wObj["time"].toString()} minutos",
                   style: TextStyle(
                       color: TColor.gray,
-                      fontSize: 10,),
+                      fontSize: 11,),
                 ),
 
                const SizedBox(height: 4),
