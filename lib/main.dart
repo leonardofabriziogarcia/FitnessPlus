@@ -3,6 +3,8 @@ import 'package:fitness/view/main_tab/aba_principal.dart';
 import 'package:fitness/view/main_tab/videos.dart';
 import 'package:fitness/view/login/cadastro.dart';
 import 'package:fitness/view/on_boarding/primeira_pagina.dart';
+import 'package:fitness/view/videos/crucifixo_polia.dart';
+import 'package:fitness/view/videos/supino_inclinado.dart';
 import 'package:fitness/view/videos/supino_reto.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Poppins"
       ),
       // ***home: const MainTabView(),
-      home: VideoPlayer(),
+      home: SupinoInclinado(),
     );
   }
 }
