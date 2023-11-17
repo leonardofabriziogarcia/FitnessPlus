@@ -1,48 +1,24 @@
-2023/11/16-18:53:57.757 307c Reusing MANIFEST C:\Users\pedro\AppData\Local\Temp\flutter_tools.afe103f5\flutter_tools_chrome_device.264ae00d\Default\Site Characteristics Database/MANIFEST-000001
-2023/11/16-18:53:57.764 307c Recovering log #3
-2023/11/16-18:53:57.765 307c Level-0 table #57: started
-2023/11/16-18:53:57.767 307c Level-0 table #57: 130 bytes OK
-2023/11/16-18:53:57.768 307c Recovering log #6
-2023/11/16-18:53:57.768 307c Level-0 table #58: started
-2023/11/16-18:53:57.772 307c Level-0 table #58: 165 bytes OK
-2023/11/16-18:53:57.772 307c Recovering log #10
-2023/11/16-18:53:57.772 307c Level-0 table #59: started
-2023/11/16-18:53:57.774 307c Level-0 table #59: 165 bytes OK
-2023/11/16-18:53:57.774 307c Recovering log #15
-2023/11/16-18:53:57.774 307c Recovering log #27
-2023/11/16-18:53:57.774 307c Level-0 table #60: started
-2023/11/16-18:53:57.776 307c Level-0 table #60: 165 bytes OK
-2023/11/16-18:53:57.776 307c Recovering log #36
-2023/11/16-18:53:57.776 307c Level-0 table #61: started
-2023/11/16-18:53:57.778 307c Level-0 table #61: 268 bytes OK
-2023/11/16-18:53:57.778 307c Recovering log #53
-2023/11/16-18:53:57.778 307c Reusing old log C:\Users\pedro\AppData\Local\Temp\flutter_tools.afe103f5\flutter_tools_chrome_device.264ae00d\Default\Site Characteristics Database/000053.log 
-2023/11/16-18:53:57.779 307c Delete type=0 #3
-2023/11/16-18:53:57.780 307c Delete type=2 #4
-2023/11/16-18:53:57.780 307c Delete type=2 #6
-2023/11/16-18:53:57.780 307c Delete type=0 #6
-2023/11/16-18:53:57.780 307c Delete type=2 #7
-2023/11/16-18:53:57.780 307c Delete type=0 #10
-2023/11/16-18:53:57.780 307c Delete type=0 #15
-2023/11/16-18:53:57.780 307c Delete type=2 #16
-2023/11/16-18:53:57.780 307c Delete type=2 #17
-2023/11/16-18:53:57.780 307c Delete type=2 #19
-2023/11/16-18:53:57.780 307c Delete type=2 #20
-2023/11/16-18:53:57.780 307c Delete type=2 #21
-2023/11/16-18:53:57.780 307c Delete type=0 #27
-2023/11/16-18:53:57.780 307c Delete type=2 #28
-2023/11/16-18:53:57.781 307c Delete type=2 #29
-2023/11/16-18:53:57.781 307c Delete type=0 #36
-2023/11/16-18:53:57.781 307c Delete type=2 #37
-2023/11/16-18:53:57.781 307c Delete type=2 #38
-2023/11/16-18:53:57.781 307c Delete type=2 #40
-2023/11/16-18:53:57.781 307c Delete type=2 #45
-2023/11/16-18:53:57.787 28a8 Compacting 4@0 + 1@1 files
-2023/11/16-18:53:57.789 28a8 Generated table #62@0: 1 keys, 165 bytes
-2023/11/16-18:53:57.789 28a8 Compacted 4@0 + 1@1 files => 165 bytes
-2023/11/16-18:53:57.790 28a8 compacted to: files[ 1 2 0 0 0 0 0 ]
-2023/11/16-18:53:57.790 28a8 Delete type=2 #54
-2023/11/16-18:53:57.791 28a8 Delete type=2 #58
-2023/11/16-18:53:57.791 28a8 Delete type=2 #59
-2023/11/16-18:53:57.791 28a8 Delete type=2 #60
-2023/11/16-18:53:57.791 28a8 Delete type=2 #61
+2023/11/16-23:03:54.581 1dac Reusing MANIFEST C:\Users\pedro\AppData\Local\Temp\flutter_tools.646c6c17\flutter_tools_chrome_device.73088709\Default\Site Characteristics Database/MANIFEST-000001
+2023/11/16-23:03:54.585 1dac Recovering log #53
+2023/11/16-23:03:54.586 1dac Reusing old log C:\Users\pedro\AppData\Local\Temp\flutter_tools.646c6c17\flutter_tools_chrome_device.73088709\Default\Site Characteristics Database/000053.log 
+2023/11/16-23:03:54.586 1dac Delete type=0 #3
+2023/11/16-23:03:54.586 1dac Delete type=2 #4
+2023/11/16-23:03:54.587 1dac Delete type=2 #6
+2023/11/16-23:03:54.587 1dac Delete type=0 #6
+2023/11/16-23:03:54.588 1dac Delete type=2 #7
+2023/11/16-23:03:54.588 1dac Delete type=0 #10
+2023/11/16-23:03:54.588 1dac Delete type=0 #15
+2023/11/16-23:03:54.590 1dac Delete type=2 #16
+2023/11/16-23:03:54.590 1dac Delete type=2 #17
+2023/11/16-23:03:54.590 1dac Delete type=2 #19
+2023/11/16-23:03:54.590 1dac Delete type=2 #20
+2023/11/16-23:03:54.590 1dac Delete type=2 #21
+2023/11/16-23:03:54.590 1dac Delete type=0 #27
+2023/11/16-23:03:54.590 1dac Delete type=2 #28
+2023/11/16-23:03:54.590 1dac Delete type=2 #29
+2023/11/16-23:03:54.590 1dac Delete type=0 #36
+2023/11/16-23:03:54.590 1dac Delete type=2 #37
+2023/11/16-23:03:54.591 1dac Delete type=2 #38
+2023/11/16-23:03:54.591 1dac Delete type=2 #40
+2023/11/16-23:03:54.591 1dac Delete type=2 #45
+2023/11/16-23:03:54.592 1dac Delete type=2 #54
