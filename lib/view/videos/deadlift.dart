@@ -16,7 +16,7 @@ class _DeadliftState extends State<Deadlift> {
   Source currentSource = Source.Asset;
 
   
-  String assetVideoPath = "assets/exercicios/PANTURILHA_LIVRE.mp4";
+  String assetVideoPath = "assets/exercicios/DEADLIFT.mp4";
 
   @override
   void initState() {
