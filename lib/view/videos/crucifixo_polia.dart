@@ -55,8 +55,4 @@ class _CrucifixoState extends State<Crucifixo> {
     _customVideoPlayerController = CustomVideoPlayerController(
         context: context, videoPlayerController: _videoPlayerController);
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 45b5993e7327c9177728274a4b7e2e5b1f198a4d

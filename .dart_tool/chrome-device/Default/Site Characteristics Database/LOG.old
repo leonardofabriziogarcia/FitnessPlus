@@ -1,19 +1,28 @@
-2023/11/16-11:33:41.276 e20 Reusing MANIFEST C:\Users\pedro\AppData\Local\Temp\flutter_tools.d3df8be1\flutter_tools_chrome_device.1b0f57b7\Default\Site Characteristics Database/MANIFEST-000001
-2023/11/16-11:33:41.288 e20 Recovering log #36
-2023/11/16-11:33:41.288 e20 Reusing old log C:\Users\pedro\AppData\Local\Temp\flutter_tools.d3df8be1\flutter_tools_chrome_device.1b0f57b7\Default\Site Characteristics Database/000036.log 
-2023/11/16-11:33:41.289 e20 Delete type=0 #3
-2023/11/16-11:33:41.289 e20 Delete type=2 #4
-2023/11/16-11:33:41.289 e20 Delete type=2 #6
-2023/11/16-11:33:41.289 e20 Delete type=0 #6
-2023/11/16-11:33:41.289 e20 Delete type=2 #7
-2023/11/16-11:33:41.289 e20 Delete type=0 #10
-2023/11/16-11:33:41.289 e20 Delete type=0 #15
-2023/11/16-11:33:41.290 e20 Delete type=2 #16
-2023/11/16-11:33:41.290 e20 Delete type=2 #17
-2023/11/16-11:33:41.290 e20 Delete type=2 #19
-2023/11/16-11:33:41.290 e20 Delete type=2 #20
-2023/11/16-11:33:41.290 e20 Delete type=2 #21
-2023/11/16-11:33:41.290 e20 Delete type=0 #27
-2023/11/16-11:33:41.290 e20 Delete type=2 #28
-2023/11/16-11:33:41.290 e20 Delete type=2 #29
-2023/11/16-11:33:41.290 e20 Delete type=2 #37
+2023/11/16-18:44:50.515 2bb0 Reusing MANIFEST C:\Users\pedro\AppData\Local\Temp\flutter_tools.e786dea0\flutter_tools_chrome_device.be491b14\Default\Site Characteristics Database/MANIFEST-000001
+2023/11/16-18:44:50.518 38b0 Compacting 10@0 + 0@1 files
+2023/11/16-18:44:50.523 38b0 Generated table #54@0: 1 keys, 165 bytes
+2023/11/16-18:44:50.523 38b0 Compacted 10@0 + 0@1 files => 165 bytes
+2023/11/16-18:44:50.524 38b0 compacted to: files[ 9 1 0 0 0 0 0 ]
+2023/11/16-18:44:50.526 38b0 Delete type=2 #16
+2023/11/16-18:44:50.526 38b0 Delete type=2 #20
+2023/11/16-18:44:50.526 38b0 Delete type=2 #21
+2023/11/16-18:44:50.526 38b0 Delete type=2 #28
+2023/11/16-18:44:50.527 38b0 Delete type=2 #37
+2023/11/16-18:44:50.527 38b0 Delete type=2 #45
+2023/11/16-18:44:50.527 38b0 Delete type=2 #47
+2023/11/16-18:44:50.527 38b0 Delete type=2 #48
+2023/11/16-18:44:50.528 38b0 Delete type=2 #50
+2023/11/16-18:44:50.528 38b0 Delete type=2 #51
+2023/11/16-18:44:50.531 38b0 Compacting 9@0 + 0@1 files
+2023/11/16-18:44:50.534 38b0 Generated table #55@0: 1 keys, 130 bytes
+2023/11/16-18:44:50.535 38b0 Compacted 9@0 + 0@1 files => 130 bytes
+2023/11/16-18:44:50.535 38b0 compacted to: files[ 0 2 0 0 0 0 0 ]
+2023/11/16-18:44:50.536 38b0 Delete type=2 #4
+2023/11/16-18:44:50.536 38b0 Delete type=2 #6
+2023/11/16-18:44:50.536 38b0 Delete type=2 #7
+2023/11/16-18:44:50.536 38b0 Delete type=2 #17
+2023/11/16-18:44:50.537 38b0 Delete type=2 #19
+2023/11/16-18:44:50.537 38b0 Delete type=2 #29
+2023/11/16-18:44:50.537 38b0 Delete type=2 #38
+2023/11/16-18:44:50.537 38b0 Delete type=2 #40
+2023/11/16-18:44:50.537 38b0 Delete type=2 #46

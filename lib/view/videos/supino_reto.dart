@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 
 enum Source { Asset, Network }
 
-class VideoPlayer extends StatefulWidget {
-  const VideoPlayer({super.key});
+class SupinoReto extends StatefulWidget {
+  const SupinoReto({super.key});
 
   @override
-  State<VideoPlayer> createState() => _VideoPlayerState();
+  State<SupinoReto> createState() => _SupinoRetoState();
 }
 
-class _VideoPlayerState extends State<VideoPlayer> {
+class _SupinoRetoState extends State<SupinoReto> {
   late CustomVideoPlayerController _customVideoPlayerController;
 
   Source currentSource = Source.Asset;
