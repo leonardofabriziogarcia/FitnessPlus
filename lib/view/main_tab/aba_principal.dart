@@ -23,7 +23,7 @@ class _MainTabViewState extends State<MainTabView> {
     return Scaffold(
       backgroundColor: TColor.white,
       body: PageStorage(bucket: pageBucket, child: currentTab),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: SizedBox(
         width: 60,
         height: 60,
@@ -35,21 +35,6 @@ class _MainTabViewState extends State<MainTabView> {
                     setState(() {});
                   }
                 },
-          child: Container(
-            width: 50,
-            height: 50,
-            decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: TColor.primaryG,
-                ),
-                borderRadius: BorderRadius.circular(35),
-                boxShadow: const [
-                  BoxShadow(
-                      color: Colors.black12,
-                      blurRadius: 2,)
-                ]),
-            child: Image.asset("assets/img/ia_center_resized.png"),
-          ),
         ),
       ),
       bottomNavigationBar: BottomAppBar(
@@ -57,9 +42,9 @@ class _MainTabViewState extends State<MainTabView> {
         decoration: BoxDecoration(color: TColor.white, boxShadow: const [
           BoxShadow(color: Colors.black12, blurRadius: 2, offset: Offset(0, -2))
         ]),
-        height: kToolbarHeight,
+        height: 60,
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             TabButton(
                 icon: "assets/img/home_tab.png",
@@ -84,7 +69,7 @@ class _MainTabViewState extends State<MainTabView> {
                   }
                 }),
 
-              const  SizedBox(width: 40,),
+              const  SizedBox(width: 10,),
             TabButton(
                 icon: "assets/img/camera_tab.png",
                 selectIcon: "assets/img/camera_tab_select.png",

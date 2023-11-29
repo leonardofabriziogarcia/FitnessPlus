@@ -1,5 +1,6 @@
 import 'package:fitness/common_widget/butao_redondo.dart';
 import 'package:fitness/view/meal_planner/plano_alimentacao.dart';
+import 'package:fitness/view/meal_planner/calendario_alimentacao.dart';
 import 'package:fitness/view/workout_tracker/acompanhamento_treinos.dart';
 import 'package:flutter/material.dart';
 
@@ -36,7 +37,7 @@ class SelectView extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const MealPlannerView(),
+                      builder: (context) => const MealScheduleView(),
                     ),
                   );
                 }),

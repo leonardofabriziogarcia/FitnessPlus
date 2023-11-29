@@ -13,80 +13,42 @@ class MealScheduleView extends StatefulWidget {
 }
 
 class _MealScheduleViewState extends State<MealScheduleView> {
-  CalendarAgendaController _calendarAgendaControllerAppBar =
-      CalendarAgendaController();
-
-  late DateTime _selectedDateAppBBar;
 
   List breakfastArr = [
     {
-      "name": "Honey Pancake",
-      "time": "07:00am",
-      "image": "assets/img/honey_pan.png"
+      "name": "Pão integral com patê de frango",
+      "image": "assets/img/pao.png"
     },
-    {"name": "Coffee", "time": "07:30am", "image": "assets/img/coffee.png"},
+    {"name": "Frutas","image": "assets/img/orange.png"},
+    {"name": "Água, vitamina de fruta ou suco natural","image": "assets/img/juice.png"},
   ];
 
   List lunchArr = [
     {
-      "name": "Chicken Steak",
-      "time": "01:00pm",
+      "name": "Arroz, feijão, carnes com pouco percentual de gordura(frango, peixe) ",
       "image": "assets/img/chicken.png"
     },
+    {"name": "Legumes e verduras","image": "assets/img/legumes.png"},
     {
-      "name": "Milk",
-      "time": "01:20pm",
-      "image": "assets/img/glass-of-milk 1.png"
+      "name": "Suco natural ou água",
+      "image": "assets/img/juice.png"
     },
   ];
   List snacksArr = [
-    {"name": "Orange", "time": "04:30pm", "image": "assets/img/orange.png"},
+    {"name": "Vitamina ou Shake Whey Protein","image": "assets/img/whey_shake.png"},
     {
-      "name": "Apple Pie",
-      "time": "04:40pm",
-      "image": "assets/img/apple_pie.png"
+      "name": "Frutas",
+      "image": "assets/img/orange.png"
     },
   ];
   List dinnerArr = [
-    {"name": "Salad", "time": "07:10pm", "image": "assets/img/salad.png"},
-    {"name": "Oatmeal", "time": "08:10pm", "image": "assets/img/oatmeal.png"},
-  ];
-
-  List nutritionArr = [
-    {
-      "title": "Calories",
-      "image": "assets/img/burn.png",
-      "unit_name": "kCal",
-      "value": "350",
-      "max_value": "500",
-    },
-    {
-      "title": "Proteins",
-      "image": "assets/img/proteins.png",
-      "unit_name": "g",
-      "value": "300",
-      "max_value": "1000",
-    },
-    {
-      "title": "Fats",
-      "image": "assets/img/egg.png",
-      "unit_name": "g",
-      "value": "140",
-      "max_value": "1000",
-    },
-    {
-      "title": "Carbo",
-      "image": "assets/img/carbo.png",
-      "unit_name": "g",
-      "value": "140",
-      "max_value": "1000",
-    },
+    {"name": "Arroz, salada, carne com pouco percentual de gordura ou ovo", "image": "assets/img/chicken.png"},
+    {"name": "Suco natural ou água","image": "assets/img/juice.png"},
   ];
 
   @override
   void initState() {
     super.initState();
-    _selectedDateAppBBar = DateTime.now();
   }
 
   @override
@@ -118,86 +80,15 @@ class _MealScheduleViewState extends State<MealScheduleView> {
           ),
         ),
         title: Text(
-          "Meal  Schedule",
+          "Rotina de alimentação",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),
-        actions: [
-          InkWell(
-            onTap: () {},
-            child: Container(
-              margin: const EdgeInsets.all(8),
-              height: 40,
-              width: 40,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                  color: TColor.lightGray,
-                  borderRadius: BorderRadius.circular(10)),
-              child: Image.asset(
-                "assets/img/more_btn.png",
-                width: 15,
-                height: 15,
-                fit: BoxFit.contain,
-              ),
-            ),
-          )
-        ],
       ),
       backgroundColor: TColor.white,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          CalendarAgenda(
-            controller: _calendarAgendaControllerAppBar,
-            appbar: false,
-            selectedDayPosition: SelectedDayPosition.center,
-            leading: IconButton(
-                onPressed: () {},
-                icon: Image.asset(
-                  "assets/img/ArrowLeft.png",
-                  width: 15,
-                  height: 15,
-                )),
-            training: IconButton(
-                onPressed: () {},
-                icon: Image.asset(
-                  "assets/img/ArrowRight.png",
-                  width: 15,
-                  height: 15,
-                )),
-            weekDay: WeekDay.short,
-            dayNameFontSize: 12,
-            dayNumberFontSize: 16,
-            dayBGColor: Colors.grey.withOpacity(0.15),
-            titleSpaceBetween: 15,
-            backgroundColor: Colors.transparent,
-            // fullCalendar: false,
-            fullCalendarScroll: FullCalendarScroll.horizontal,
-            fullCalendarDay: WeekDay.short,
-            selectedDateColor: Colors.white,
-            dateColor: Colors.black,
-            locale: 'en',
-
-            initialDate: DateTime.now(),
-            calendarEventColor: TColor.primaryColor2,
-            firstDate: DateTime.now().subtract(const Duration(days: 140)),
-            lastDate: DateTime.now().add(const Duration(days: 60)),
-
-            onDateSelected: (date) {
-              _selectedDateAppBBar = date;
-            },
-            selectedDayLogo: Container(
-              width: double.maxFinite,
-              height: double.maxFinite,
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                    colors: TColor.primaryG,
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter),
-                borderRadius: BorderRadius.circular(10.0),
-              ),
-            ),
-          ),
           Expanded(
               child: SingleChildScrollView(
             child: Column(
@@ -209,19 +100,12 @@ class _MealScheduleViewState extends State<MealScheduleView> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "BreakFast",
+                        "Café da manhã",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 16,
                             fontWeight: FontWeight.w700),
                       ),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          "${breakfastArr.length} Items | 230 calories",
-                          style: TextStyle(color: TColor.gray, fontSize: 12),
-                        ),
-                      )
                     ],
                   ),
                 ),
@@ -243,19 +127,12 @@ class _MealScheduleViewState extends State<MealScheduleView> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Lunch",
+                        "Almoço",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 16,
                             fontWeight: FontWeight.w700),
                       ),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          "${lunchArr.length} Items | 500 calories",
-                          style: TextStyle(color: TColor.gray, fontSize: 12),
-                        ),
-                      )
                     ],
                   ),
                 ),
@@ -277,19 +154,12 @@ class _MealScheduleViewState extends State<MealScheduleView> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Snacks",
+                        "Café da tarde",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 16,
                             fontWeight: FontWeight.w700),
                       ),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          "${snacksArr.length} Items | 140 calories",
-                          style: TextStyle(color: TColor.gray, fontSize: 12),
-                        ),
-                      )
                     ],
                   ),
                 ),
@@ -311,19 +181,12 @@ class _MealScheduleViewState extends State<MealScheduleView> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Dinner",
+                        "Jantar",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 16,
                             fontWeight: FontWeight.w700),
                       ),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          "${dinnerArr.length} Items | 120 calories",
-                          style: TextStyle(color: TColor.gray, fontSize: 12),
-                        ),
-                      )
                     ],
                   ),
                 ),
@@ -342,33 +205,6 @@ class _MealScheduleViewState extends State<MealScheduleView> {
                 SizedBox(
                   height: media.width * 0.05,
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 15),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Today Meal Nutritions",
-                        style: TextStyle(
-                            color: TColor.black,
-                            fontSize: 16,
-                            fontWeight: FontWeight.w700),
-                      ),
-                    ],
-                  ),
-                ),
-                ListView.builder(
-                    padding: const EdgeInsets.symmetric(horizontal: 15),
-                    physics: const NeverScrollableScrollPhysics(),
-                    shrinkWrap: true,
-                    itemCount: nutritionArr.length,
-                    itemBuilder: (context, index) {
-                      var nObj = nutritionArr[index] as Map? ?? {};
-
-                      return NutritionRow(
-                        nObj: nObj,
-                      );
-                    }),
                 SizedBox(
                   height: media.width * 0.05,
                 )

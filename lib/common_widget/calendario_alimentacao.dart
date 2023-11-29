@@ -43,24 +43,9 @@ class MealFoodScheduleRow extends StatelessWidget {
                         fontSize: 12,
                         fontWeight: FontWeight.w700),
                   ),
-                  Text(
-                    mObj["time"].toString(),
-                    style: TextStyle(
-                      color: TColor.gray,
-                      fontSize: 10,
-                    ),
-                  ),
                 ],
               ),
             ),
-            IconButton(
-              onPressed: () {},
-              icon: Image.asset(
-                "assets/img/next_go.png",
-                width: 25,
-                height: 25,
-              ),
-            )
           ],
         ));
   }

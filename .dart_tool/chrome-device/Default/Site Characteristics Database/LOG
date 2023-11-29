@@ -1,24 +1,54 @@
-2023/11/16-23:03:54.581 1dac Reusing MANIFEST C:\Users\pedro\AppData\Local\Temp\flutter_tools.646c6c17\flutter_tools_chrome_device.73088709\Default\Site Characteristics Database/MANIFEST-000001
-2023/11/16-23:03:54.585 1dac Recovering log #53
-2023/11/16-23:03:54.586 1dac Reusing old log C:\Users\pedro\AppData\Local\Temp\flutter_tools.646c6c17\flutter_tools_chrome_device.73088709\Default\Site Characteristics Database/000053.log 
-2023/11/16-23:03:54.586 1dac Delete type=0 #3
-2023/11/16-23:03:54.586 1dac Delete type=2 #4
-2023/11/16-23:03:54.587 1dac Delete type=2 #6
-2023/11/16-23:03:54.587 1dac Delete type=0 #6
-2023/11/16-23:03:54.588 1dac Delete type=2 #7
-2023/11/16-23:03:54.588 1dac Delete type=0 #10
-2023/11/16-23:03:54.588 1dac Delete type=0 #15
-2023/11/16-23:03:54.590 1dac Delete type=2 #16
-2023/11/16-23:03:54.590 1dac Delete type=2 #17
-2023/11/16-23:03:54.590 1dac Delete type=2 #19
-2023/11/16-23:03:54.590 1dac Delete type=2 #20
-2023/11/16-23:03:54.590 1dac Delete type=2 #21
-2023/11/16-23:03:54.590 1dac Delete type=0 #27
-2023/11/16-23:03:54.590 1dac Delete type=2 #28
-2023/11/16-23:03:54.590 1dac Delete type=2 #29
-2023/11/16-23:03:54.590 1dac Delete type=0 #36
-2023/11/16-23:03:54.590 1dac Delete type=2 #37
-2023/11/16-23:03:54.591 1dac Delete type=2 #38
-2023/11/16-23:03:54.591 1dac Delete type=2 #40
-2023/11/16-23:03:54.591 1dac Delete type=2 #45
-2023/11/16-23:03:54.592 1dac Delete type=2 #54
+2023/11/28-22:56:52.719 8794 Reusing MANIFEST C:\Users\ianom\AppData\Local\Temp\flutter_tools.130b9d67\flutter_tools_chrome_device.99388f58\Default\Site Characteristics Database/MANIFEST-000001
+2023/11/28-22:56:52.759 8794 Recovering log #3
+2023/11/28-22:56:52.760 8794 Level-0 table #75: started
+2023/11/28-22:56:52.768 8794 Level-0 table #75: 130 bytes OK
+2023/11/28-22:56:52.768 8794 Recovering log #6
+2023/11/28-22:56:52.769 8794 Level-0 table #76: started
+2023/11/28-22:56:52.787 8794 Level-0 table #76: 165 bytes OK
+2023/11/28-22:56:52.788 8794 Recovering log #10
+2023/11/28-22:56:52.789 8794 Level-0 table #77: started
+2023/11/28-22:56:52.795 8794 Level-0 table #77: 165 bytes OK
+2023/11/28-22:56:52.795 8794 Recovering log #15
+2023/11/28-22:56:52.796 8794 Recovering log #27
+2023/11/28-22:56:52.796 8794 Level-0 table #78: started
+2023/11/28-22:56:52.803 8794 Level-0 table #78: 165 bytes OK
+2023/11/28-22:56:52.803 8794 Recovering log #36
+2023/11/28-22:56:52.803 8794 Level-0 table #79: started
+2023/11/28-22:56:52.816 8794 Level-0 table #79: 268 bytes OK
+2023/11/28-22:56:52.816 8794 Recovering log #53
+2023/11/28-22:56:52.817 8794 Recovering log #71
+2023/11/28-22:56:52.817 8794 Reusing old log C:\Users\ianom\AppData\Local\Temp\flutter_tools.130b9d67\flutter_tools_chrome_device.99388f58\Default\Site Characteristics Database/000071.log 
+2023/11/28-22:56:52.819 8794 Delete type=0 #3
+2023/11/28-22:56:52.819 8794 Delete type=2 #4
+2023/11/28-22:56:52.819 8794 Delete type=2 #6
+2023/11/28-22:56:52.820 8794 Delete type=0 #6
+2023/11/28-22:56:52.820 8794 Delete type=2 #7
+2023/11/28-22:56:52.820 8794 Delete type=0 #10
+2023/11/28-22:56:52.820 8794 Delete type=0 #15
+2023/11/28-22:56:52.820 8794 Delete type=2 #16
+2023/11/28-22:56:52.820 8794 Delete type=2 #17
+2023/11/28-22:56:52.820 8794 Delete type=2 #19
+2023/11/28-22:56:52.820 8794 Delete type=2 #20
+2023/11/28-22:56:52.820 8794 Delete type=2 #21
+2023/11/28-22:56:52.820 8794 Delete type=0 #27
+2023/11/28-22:56:52.820 8794 Delete type=2 #28
+2023/11/28-22:56:52.820 8794 Delete type=2 #29
+2023/11/28-22:56:52.820 8794 Delete type=0 #36
+2023/11/28-22:56:52.820 8794 Delete type=2 #37
+2023/11/28-22:56:52.820 8794 Delete type=2 #38
+2023/11/28-22:56:52.820 8794 Delete type=2 #40
+2023/11/28-22:56:52.820 8794 Delete type=2 #45
+2023/11/28-22:56:52.820 8794 Delete type=0 #53
+2023/11/28-22:56:52.820 8794 Delete type=2 #54
+2023/11/28-22:56:52.820 8794 Delete type=2 #55
+2023/11/28-22:56:52.820 8794 Delete type=2 #57
+2023/11/28-22:56:52.820 8794 Delete type=2 #62
+2023/11/28-22:56:52.836 8794 Compacting 4@0 + 1@1 files
+2023/11/28-22:56:52.840 8794 Generated table #80@0: 1 keys, 165 bytes
+2023/11/28-22:56:52.840 8794 Compacted 4@0 + 1@1 files => 165 bytes
+2023/11/28-22:56:52.842 8794 compacted to: files[ 1 2 0 0 0 0 0 ]
+2023/11/28-22:56:52.843 8794 Delete type=2 #72
+2023/11/28-22:56:52.843 8794 Delete type=2 #76
+2023/11/28-22:56:52.843 8794 Delete type=2 #77
+2023/11/28-22:56:52.843 8794 Delete type=2 #78
+2023/11/28-22:56:52.843 8794 Delete type=2 #79

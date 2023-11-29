@@ -1,4 +1,5 @@
 import 'package:fitness/view/main_tab/aba_principal.dart';
+import 'package:fitness/view/login/cadastro.dart';
 import 'package:flutter/material.dart';
 
 import 'common/cores.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Poppins"
       ),
 
-      home: const MainTabView(),
+      home: const SignUpView(),
       // home: RemadaConcentrada(),
     );
   }
