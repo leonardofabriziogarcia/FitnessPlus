@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.codeforany.fitness.app-mergeDebugResources-5:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.pi.fitness.app-mergeDebugResources-5:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ianom\\.gradle\\caches\\transforms-3\\74ce2690f7529852b8321388684fcbb6\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\cadud\\.gradle\\caches\\transforms-3\\74ce2690f7529852b8321388684fcbb6\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

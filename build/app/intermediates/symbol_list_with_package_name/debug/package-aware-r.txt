@@ -1,4 +1,4 @@
-com.codeforany.fitness
+com.pi.fitness
 attr activityAction
 attr activityName
 attr alpha
