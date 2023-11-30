@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.pi.fitness",
+  "applicationId": "com.codeforany.fitness",
   "variantName": "debug",
   "elements": []
 }
