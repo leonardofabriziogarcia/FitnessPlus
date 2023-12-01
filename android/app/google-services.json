@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "149774874926",
+    "project_id": "fitnessplus-df50a",
+    "storage_bucket": "fitnessplus-df50a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149774874926:android:c0fd0ad488365006fb62bf",
+        "android_client_info": {
+          "package_name": "com.pi.fitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUU6YpfxZXc7GS1CXiTs_Ev6qBMF0zKHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
