@@ -4,24 +4,7 @@
             "outputFile": "com.pi.fitness.app-mergeDebugResources-6:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cadud\\.gradle\\caches\\transforms-3\\b81b364cc0da12cb8f9a46171486667c\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,195,267,333,410,477,578,671",
-                        "endColumns": "69,69,71,65,76,66,100,92,69",
-                        "endOffsets": "120,190,262,328,405,472,573,666,736"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "170,240,310,382,448,525,592,693,786",
-                        "endColumns": "69,69,71,65,76,66,100,92,69",
-                        "endOffsets": "235,305,377,443,520,587,688,781,851"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\cadud\\.gradle\\caches\\transforms-3\\a89bd0e64120b064165fe7d2635bd104\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\cadud\\.gradle\\caches\\transforms-3\\161b3fc31f070fa98eb6411b9874b863\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cadud\\.gradle\\caches\\transforms-3\\32a751ba0e14373defd8f9c75fa84aab\\transformed\\core-1.7.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\cadud\\.gradle\\caches\\transforms-3\\ec0e28f71112847a71d457ec5d090872\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,195,267,333,410,477,578,671",
+                        "endColumns": "69,69,71,65,76,66,100,92,69",
+                        "endOffsets": "120,190,262,328,405,472,573,666,736"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "170,240,310,382,448,525,592,693,786",
+                        "endColumns": "69,69,71,65,76,66,100,92,69",
+                        "endOffsets": "235,305,377,443,520,587,688,781,851"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\cadud\\.gradle\\caches\\transforms-3\\4c3c96ca38a4adc4db3900c1ff310734\\transformed\\core-1.9.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -137,12 +137,12 @@
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="gcm_defaultSenderId" translatable="false">149774874926</string>
-    <string name="google_api_key" translatable="false">AIzaSyBUU6YpfxZXc7GS1CXiTs_Ev6qBMF0zKHs</string>
-    <string name="google_app_id" translatable="false">1:149774874926:android:c0fd0ad488365006fb62bf</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBUU6YpfxZXc7GS1CXiTs_Ev6qBMF0zKHs</string>
-    <string name="google_storage_bucket" translatable="false">fitnessplus-df50a.appspot.com</string>
-    <string name="project_id" translatable="false">fitnessplus-df50a</string>
+    <string name="gcm_defaultSenderId" translatable="false">386297832036</string>
+    <string name="google_api_key" translatable="false">AIzaSyAcQECrmZXgipogrcyiJBJ-Vn0ZwFGf4h0</string>
+    <string name="google_app_id" translatable="false">1:386297832036:android:552a530a884ef7c5ed3571</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAcQECrmZXgipogrcyiJBJ-Vn0ZwFGf4h0</string>
+    <string name="google_storage_bucket" translatable="false">fitnessplus-a318f.appspot.com</string>
+    <string name="project_id" translatable="false">fitnessplus-a318f</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         
