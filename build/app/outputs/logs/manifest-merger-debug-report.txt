@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 application
 INJECTED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml:3:4-33:19
+MERGED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\cadud\.gradle\caches\transforms-3\cd2b4e2df38c2091620a41f482938fea\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
@@ -61,6 +63,7 @@ INJECTED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml:1:1-34:1
 INJECTED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml:1:1-34:12
 INJECTED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml:1:1-34:12
 MERGED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:simple_animation_progress_bar] C:\FitnessPlus-1\build\simple_animation_progress_bar\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:video_player_android] C:\FitnessPlus-1\build\video_player_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -149,6 +152,8 @@ uses-sdk
 INJECTED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\FitnessPlus-1\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:simple_animation_progress_bar] C:\FitnessPlus-1\build\simple_animation_progress_bar\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -314,7 +319,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:
 	android:name
 		ADDED from C:\FitnessPlus-1\android\app\src\debug\AndroidManifest.xml:7:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+ADDED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\cadud\.gradle\caches\transforms-3\f9fd1d16617f8f96c3b072cf20a93fd2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\cadud\.gradle\caches\transforms-3\f9fd1d16617f8f96c3b072cf20a93fd2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-firestore:24.9.1] C:\Users\cadud\.gradle\caches\transforms-3\f4112d25fb29cf77c49856d334539ee4\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:14:9-23:19
@@ -334,7 +341,13 @@ MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\cadud\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\cadud\.gradle\caches\transforms-3\f4f536f0aca96e9b890ced88e0700ea3\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+		ADDED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] C:\FitnessPlus-1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] C:\FitnessPlus-1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value
