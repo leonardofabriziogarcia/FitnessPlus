@@ -105,7 +105,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                         Expanded(
                           child: TodayTargetCell(
                             icon: "assets/img/water.png",
-                            value: "3L",
+                            value: "3000 ml",
                             title: "Ingestão de água",
                           ),
                         ),
@@ -114,9 +114,9 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                         ),
                         Expanded(
                           child: TodayTargetCell(
-                            icon: "assets/img/foot.png",
-                            value: "3000",
-                            title: "Passos",
+                            icon: "assets/img/burn.png",
+                            value: "760kcal",
+                            title: "Queima de calorias",
                           ),
                         ),
                       ],

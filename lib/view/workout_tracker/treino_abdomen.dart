@@ -229,7 +229,7 @@ class _TreinoAbdomenState extends State<TreinoAbdomen> {
                                       fontWeight: FontWeight.w700),
                                 ),
                                 Text(
-                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()} | Queima de 300 a 500 calorias",
+                                  "${widget.dObj["exercises"].toString()} | ${widget.dObj["time"].toString()}",
                                   style: TextStyle(
                                       color: TColor.gray, fontSize: 12),
                                 ),

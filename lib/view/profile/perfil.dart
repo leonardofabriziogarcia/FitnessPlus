@@ -1,4 +1,5 @@
 import 'package:fitness/view/home/acompanhamento_atividade.dart';
+import 'package:fitness/view/profile/contato.dart';
 import 'package:flutter/material.dart';
 
 import '../../common/cores.dart';
@@ -8,7 +9,7 @@ import '../../common_widget/titulo_subtitulo.dart';
 import '../login/perfil_completo.dart';
 import '../login/cadastro.dart';
 import '../profile/treinos_ativos.dart';
-import 'package:fitness/view/workout_tracker/acompanhamento_treinos.dart';
+import '../profile/politica_privacidade.dart';
 
 import 'package:animated_toggle_switch/animated_toggle_switch.dart';
 
@@ -34,11 +35,6 @@ class _ProfileViewState extends State<ProfileView> {
       "name": "Treinos ativos",
       "tag": "3"
     },
-    {
-      "image": "assets/img/p_workout.png",
-      "name": "Progresso nos treinos",
-      "tag": "4"
-    },
     {"image": "assets/img/p_contact.png", "name": "Contate nos", "tag": "5"},
     {
       "image": "assets/img/p_privacy.png",
@@ -47,8 +43,7 @@ class _ProfileViewState extends State<ProfileView> {
     },
   ];
 
-  List otherArr = [
-  ];
+  List otherArr = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -208,12 +203,19 @@ class _ProfileViewState extends State<ProfileView> {
                                         builder: (context) =>
                                             const TreinosAtivosView()));
                                 break;
-                              case '4':
+                              case '5':
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            const CompleteProfileView()));
+                                            const ContatoView()));
+                              break;
+                              case '6':
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            const PrivacyView()));
                             }
                           },
                         );

@@ -26,7 +26,6 @@ class _HomeViewState extends State<HomeView> {
     {
       "name": "Treino de Superiores",
       "image": "assets/img/what_5.png",
-      "kcal": "entre 600 a 800",
       "tag":'1',
       "time": "90",
       "progress": 0.3
@@ -34,7 +33,6 @@ class _HomeViewState extends State<HomeView> {
     {
       "name": "Treino de Inferiores",
       "image": "assets/img/Workout2.png",
-      "kcal": "entre 800 a 1000",
       "tag":'2',
       "time": "120",
       "progress": 0.4
@@ -42,7 +40,6 @@ class _HomeViewState extends State<HomeView> {
     {
       "name": "Abdominais e Antebraço",
       "image": "assets/img/Workout3.png",
-      "kcal": "entre 300 a 500",
       "tag":'3',
       "time": "60",
       "progress": 0.7
@@ -202,7 +199,7 @@ class _HomeViewState extends State<HomeView> {
                                             0, 0, bounds.width, bounds.height));
                                   },
                                   child: Text(
-                                    "3 Litros",
+                                    "3000 ml",
                                     style: TextStyle(
                                         color: TColor.white.withOpacity(0.7),
                                         fontWeight: FontWeight.w700,
