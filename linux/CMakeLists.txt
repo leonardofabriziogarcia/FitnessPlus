@@ -7,7 +7,7 @@ project(runner LANGUAGES CXX)
 set(BINARY_NAME "fitness_workout_app_flutter_3_ui")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
-set(APPLICATION_ID "com.codeforany.fitness_workout_app_flutter_3_ui")
+set(APPLICATION_ID "com.pi.fitness_workout_app_flutter_3_ui")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

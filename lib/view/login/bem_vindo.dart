@@ -45,7 +45,7 @@ SizedBox(
                     fontWeight: FontWeight.w700),
               ),
               Text(
-                "Tudo certo agora, vamos alcançar nossos\nobjetivos juntos conosco",
+                "Tudo certo agora, vamos juntos alcançar\nseus objetivos!",
                 textAlign: TextAlign.center,
                 style: TextStyle(color: TColor.gray, fontSize: 12),
               ),

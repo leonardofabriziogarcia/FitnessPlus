@@ -8,7 +8,7 @@
 PRODUCT_NAME = fitness_workout_app_flutter_3_ui
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.codeforany.fitnessWorkoutAppFlutter3Ui
+PRODUCT_BUNDLE_IDENTIFIER = com.pi.fitnessWorkoutAppFlutter3Ui
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2023 com.codeforany. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2023 com.pi. All rights reserved.

@@ -58,14 +58,12 @@ class _LoginViewState extends State<LoginView> {
                   rigtIcon: TextButton(
                       onPressed: () {},
                       child: Container(
-                          alignment: Alignment.center,
-                          width: 20,
-                          height: 20)),
+                          alignment: Alignment.center, width: 20, height: 20)),
                 ),
-                 SizedBox(
+                SizedBox(
                   height: media.width * 0.04,
                 ),
-               const Spacer(),
+                const Spacer(),
                 RoundButton(
                     title: "Login",
                     onPressed: () {
